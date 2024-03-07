@@ -1,0 +1,1332 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florans</title>
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__container _container">
+                <div class="header__top">
+                    <div class="header__logo">
+                        <img src="./assets/images/components/logo.jpg" alt="Florans">
+                    </div>
+                    <div class="burger-button">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="header__location">
+                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                            <path d="M22.5 13C18.9064 13 16 15.817 16 19.3C16 24.025 22.5 31 22.5 31C22.5 31 29 24.025 29 19.3C29 15.817 26.0936 13 22.5 13ZM22.5 21.55C21.2186 21.55 20.1786 20.542 20.1786 19.3C20.1786 18.058 21.2186 17.05 22.5 17.05C23.7814 17.05 24.8214 18.058 24.8214 19.3C24.8214 20.542 23.7814 21.55 22.5 21.55Z" fill="#897B75"/>
+                        </svg>    
+                        <p>г. Чебоксары,<br />ул. Юрьева, д. 8/7, пом. 1</p>                        
+                    </div>
+                    <div class="header__phone">
+                        <a href="tel:">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                                <path d="M28.4323 24.9109L26.17 24.6526C25.904 24.6214 25.6343 24.6508 25.3813 24.7388C25.1283 24.8267 24.8986 24.9708 24.7093 25.1603L23.0704 26.7992C20.5419 25.5132 18.4868 23.458 17.2008 20.9295L18.8486 19.2818C19.2316 18.8988 19.4186 18.3644 19.3563 17.821L19.098 15.5765C19.0475 15.142 18.839 14.7413 18.5121 14.4506C18.1853 14.1598 17.7629 13.9995 17.3255 14H15.7846C14.7782 14 13.9409 14.8372 14.0033 15.8437C14.4753 23.4502 20.5587 29.5247 28.1562 29.9967C29.1627 30.0591 29.9999 29.2218 29.9999 28.2154V26.6745C30.0088 25.7749 29.3319 25.0178 28.4323 24.9109Z" fill="#897B75"/>
+                            </svg> 
+                        </a>
+                        <div class="header__phone__right">
+                            <p>8 (8352) 40-91-92</p>
+                            <p>Пн-Вс 09:00 - 20:00</p>
+                        </div>                           
+                    </div>
+                    <div class="header__social-media">
+                        <a href="#">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                                <path d="M22.5 14C27.1946 14 31 17.8054 31 22.5C31 27.1945 27.1946 31 22.5 31C20.9979 31.0024 19.5222 30.6049 18.2245 29.8482L14.0034 31L15.1526 26.7772C14.3953 25.4791 13.9975 24.0028 14 22.5C14 17.8054 17.8055 14 22.5 14ZM19.6032 18.505L19.4332 18.5118C19.3232 18.5185 19.2156 18.5474 19.117 18.5968C19.0248 18.649 18.9406 18.7143 18.8671 18.7906C18.7651 18.8866 18.7073 18.9699 18.6453 19.0507C18.3309 19.4595 18.1616 19.9613 18.1642 20.477C18.1659 20.8935 18.2747 21.2989 18.4447 21.678C18.7923 22.4447 19.3644 23.2565 20.1192 24.0087C20.3011 24.1898 20.4796 24.3717 20.6717 24.5408C21.6095 25.3666 22.7272 25.9621 23.9357 26.2799L24.4185 26.3539C24.5757 26.3624 24.733 26.3505 24.8911 26.3428C25.1386 26.3301 25.3803 26.263 25.5991 26.1465C25.7104 26.0892 25.819 26.0268 25.9247 25.9595C25.9247 25.9595 25.9612 25.9357 26.0309 25.883C26.1457 25.798 26.2162 25.7376 26.3114 25.6382C26.382 25.5651 26.4432 25.4792 26.4899 25.3815C26.5562 25.2429 26.6225 24.9786 26.6497 24.7584C26.6701 24.5901 26.6642 24.4983 26.6616 24.4414C26.6582 24.3504 26.5826 24.2561 26.5001 24.2161L26.0054 23.9943C26.0054 23.9943 25.2659 23.6721 24.8137 23.4664C24.7664 23.4458 24.7157 23.434 24.6641 23.4316C24.6059 23.4256 24.5472 23.4322 24.4918 23.4508C24.4363 23.4694 24.3856 23.4997 24.3428 23.5395C24.3386 23.5378 24.2816 23.5863 23.6671 24.3309C23.6318 24.3783 23.5832 24.4141 23.5275 24.4338C23.4718 24.4535 23.4115 24.4561 23.3543 24.4414C23.2989 24.4265 23.2446 24.4078 23.1919 24.3853C23.0865 24.3411 23.05 24.3241 22.9777 24.2935C22.4899 24.0806 22.0382 23.793 21.639 23.4409C21.5319 23.3474 21.4324 23.2454 21.3304 23.1468C20.996 22.8266 20.7046 22.4643 20.4634 22.069L20.4133 21.9883C20.3772 21.934 20.3481 21.8755 20.3266 21.814C20.2943 21.6891 20.3784 21.5888 20.3784 21.5888C20.3784 21.5888 20.585 21.3627 20.681 21.2403C20.7745 21.1213 20.8536 21.0057 20.9046 20.9232C21.0049 20.7617 21.0363 20.596 20.9836 20.4676C20.7456 19.8862 20.4991 19.3074 20.2458 18.7328C20.1957 18.6189 20.0469 18.5373 19.9118 18.5211C19.8659 18.516 19.82 18.5109 19.7741 18.5075C19.6599 18.5019 19.5455 18.503 19.4315 18.5109L19.6032 18.505Z" fill="#897B75"/>
+                            </svg> 
+                        </a>
+                        <a href=#>
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                                <g clip-path="url(#clip0_4_168)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M28.1355 15.1095C28.3568 15.0125 28.5991 14.9791 28.837 15.0127C29.0749 15.0462 29.2999 15.1455 29.4884 15.3002C29.677 15.4549 29.8222 15.6594 29.9091 15.8923C29.9959 16.1252 30.0212 16.3781 29.9822 16.6247L27.951 29.4443C27.754 30.6808 26.45 31.39 25.3601 30.774C24.4484 30.2587 23.0943 29.4648 21.8763 28.6363C21.2673 28.2217 19.4018 26.8938 19.6311 25.9488C19.8281 25.1409 22.9627 22.1049 24.7538 20.2999C25.4568 19.5908 25.1362 19.1817 24.306 19.834C22.2444 21.4536 18.9344 23.9165 17.84 24.6098C16.8745 25.2211 16.3712 25.3254 15.7694 25.2211C14.6714 25.031 13.6531 24.7365 12.822 24.3777C11.699 23.8932 11.7536 22.2866 12.8211 21.8188L28.1355 15.1095Z" fill="#897B75"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_4_168">
+                                <rect width="20" height="20" fill="white" transform="translate(11 12)"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.8201 13.4895C22.9749 12.8368 20.0243 12.8368 17.1791 13.4895L16.8725 13.5591C16.0722 13.7428 15.3371 14.1505 14.749 14.737C14.1609 15.3235 13.7427 16.0659 13.5409 16.8816C12.8197 19.7982 12.8197 22.8533 13.5409 25.7698C13.7333 26.5478 14.1228 27.2597 14.6697 27.8335C15.2167 28.4072 15.9018 28.8223 16.6555 29.0367L17.076 31.613C17.0894 31.6948 17.124 31.7714 17.176 31.8349C17.2281 31.8984 17.2958 31.9463 17.3721 31.9738C17.4484 32.0013 17.5304 32.0073 17.6097 31.9912C17.689 31.975 17.7627 31.9374 17.823 31.8822L20.2927 29.6149C22.1467 29.731 24.0074 29.5788 25.8201 29.1629L26.1275 29.0933C26.9279 28.9097 27.6629 28.5019 28.2511 27.9154C28.8392 27.3289 29.2574 26.5865 29.4591 25.7708C30.1803 22.8543 30.1803 19.7991 29.4591 16.8826C29.2573 16.0667 28.839 15.3243 28.2507 14.7377C27.6624 14.1512 26.9271 13.7435 26.1266 13.5601L25.8201 13.4895ZM17.9423 16.8065C17.7743 16.7814 17.6029 16.8161 17.4567 16.9048H17.4441C17.1049 17.109 16.7993 17.3661 16.5388 17.6687C16.3218 17.9257 16.2042 18.1856 16.1735 18.4362C16.1554 18.5847 16.168 18.735 16.2105 18.877L16.2268 18.8863C16.471 19.6223 16.7893 20.3304 17.1782 20.9967C17.6796 21.9327 18.2966 22.7983 19.014 23.5722L19.0357 23.6037L19.0701 23.6297L19.0909 23.6548L19.1162 23.677C19.8729 24.4154 20.7183 25.0517 21.6321 25.5703C22.6766 26.1541 23.3105 26.4297 23.6912 26.5448V26.5504C23.8025 26.5856 23.9038 26.6014 24.006 26.6014C24.3302 26.5768 24.6371 26.4415 24.8777 26.2172C25.1717 25.9499 25.4204 25.6353 25.6139 25.2854V25.2789C25.7957 24.9262 25.7342 24.594 25.4719 24.3684C24.9451 23.8961 24.3755 23.4765 23.7708 23.1155C23.3657 22.89 22.9542 23.0264 22.7878 23.2548L22.4324 23.7151C22.2497 23.9434 21.9187 23.9118 21.9187 23.9118L21.9097 23.9174C19.4399 23.2705 18.7807 20.7044 18.7807 20.7044C18.7807 20.7044 18.7499 20.3554 18.9787 20.1772L19.4237 19.8097C19.6371 19.6315 19.7854 19.2102 19.5566 18.7944C19.2072 18.1733 18.7992 17.5889 18.3384 17.0496C18.238 16.9227 18.097 16.8363 17.9405 16.8055L17.9423 16.8065ZM22.115 15.6909C21.9951 15.6909 21.88 15.7398 21.7952 15.8268C21.7104 15.9139 21.6628 16.0319 21.6628 16.155C21.6628 16.278 21.7104 16.3961 21.7952 16.4831C21.88 16.5701 21.9951 16.619 22.115 16.619C23.259 16.619 24.2085 17.0023 24.96 17.7373C25.3462 18.1392 25.6473 18.6153 25.8445 19.1369C26.0425 19.6594 26.133 20.2172 26.1095 20.7759C26.107 20.8368 26.1162 20.8976 26.1366 20.9549C26.157 21.0122 26.1882 21.0648 26.2285 21.1097C26.3097 21.2004 26.4227 21.2542 26.5426 21.2594C26.6626 21.2646 26.7796 21.2206 26.8679 21.1373C26.9563 21.0539 27.0088 20.9379 27.0138 20.8148C27.0419 20.1276 26.9307 19.4418 26.6873 18.8009C26.4429 18.1569 26.0723 17.5713 25.5985 17.0803L25.5895 17.071C24.6571 16.1568 23.4769 15.6909 22.115 15.6909ZM22.0842 17.2167C21.9643 17.2167 21.8493 17.2656 21.7645 17.3526C21.6797 17.4396 21.6321 17.5576 21.6321 17.6807C21.6321 17.8038 21.6797 17.9218 21.7645 18.0088C21.8493 18.0959 21.9643 18.1448 22.0842 18.1448H22.0996C22.9244 18.2051 23.5249 18.4872 23.9454 18.9503C24.3767 19.4274 24.6001 20.0204 24.5829 20.7536C24.5802 20.8767 24.6252 20.9958 24.708 21.0848C24.7909 21.1739 24.9048 21.2255 25.0247 21.2283C25.1446 21.2311 25.2607 21.185 25.3475 21.0999C25.4342 21.0149 25.4845 20.898 25.4873 20.7749C25.509 19.8125 25.2069 18.9819 24.6083 18.3192V18.3174C23.996 17.6436 23.1559 17.2872 22.1448 17.2176L22.1295 17.2158L22.0842 17.2167ZM22.0671 18.7712C22.0065 18.7657 21.9456 18.7728 21.8878 18.7921C21.83 18.8113 21.7766 18.8423 21.7307 18.8832C21.6849 18.9241 21.6475 18.974 21.6209 19.03C21.5943 19.0861 21.5789 19.1471 21.5757 19.2093C21.5726 19.2716 21.5817 19.3338 21.6025 19.3924C21.6233 19.451 21.6554 19.5046 21.6969 19.5502C21.7383 19.5958 21.7883 19.6323 21.8438 19.6576C21.8994 19.6829 21.9593 19.6964 22.02 19.6974C22.398 19.7179 22.6395 19.8348 22.7914 19.9916C22.9443 20.1494 23.0582 20.4028 23.079 20.7991C23.0801 20.8613 23.0935 20.9227 23.1182 20.9796C23.143 21.0365 23.1786 21.0877 23.223 21.1301C23.2675 21.1725 23.3197 21.2054 23.3768 21.2266C23.4338 21.2479 23.4945 21.2571 23.5551 21.2538C23.6157 21.2505 23.675 21.2347 23.7296 21.2074C23.7841 21.18 23.8327 21.1417 23.8725 21.0947C23.9123 21.0477 23.9425 20.9929 23.9612 20.9337C23.9799 20.8744 23.9868 20.8119 23.9815 20.7499C23.9526 20.193 23.7826 19.7011 23.4344 19.3392C23.0844 18.9772 22.6078 18.8009 22.0671 18.7712Z" fill="#897B75"/>
+                            </svg>  
+                        </a>
+                        <a href="#">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                                <path d="M31.5414 16.8126C31.6812 16.3438 31.5414 16 30.8807 16H28.6919C28.135 16 27.8805 16.2974 27.7407 16.6241C27.7407 16.6241 26.6279 19.3655 25.0509 21.143C24.5419 21.6602 24.3093 21.8236 24.0319 21.8236C23.8931 21.8236 23.6915 21.6602 23.6915 21.1914V16.8126C23.6915 16.25 23.5308 16 23.0667 16H19.6273C19.28 16 19.0704 16.2601 19.0704 16.5082C19.0704 17.0405 19.8589 17.1635 19.9397 18.6638V21.9183C19.9397 22.6312 19.813 22.7612 19.5335 22.7612C18.7919 22.7612 16.9874 20.0097 15.9165 16.86C15.7079 16.248 15.4973 16.001 14.9384 16.001H12.7506C12.1248 16.001 12 16.2984 12 16.6251C12 17.2119 12.7416 20.1156 15.4544 23.956C17.2629 26.5784 19.809 28 22.1285 28C23.5189 28 23.6905 27.6844 23.6905 27.14V25.1578C23.6905 24.5266 23.8233 24.3996 24.2634 24.3996C24.5868 24.3996 25.1437 24.5649 26.4422 25.8283C27.9254 27.3265 28.1709 27.999 29.0043 27.999H31.1921C31.8169 27.999 32.1293 27.6834 31.9497 27.0603C31.753 26.4403 31.0444 25.5379 30.1042 24.4702C29.5932 23.8612 28.8296 23.2058 28.5971 22.8782C28.2727 22.4557 28.3665 22.2692 28.5971 21.8941C28.5981 21.8951 31.264 18.1022 31.5414 16.8126Z" fill="#897B75"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <button class="header__button _btn">ЗАКАЗАТЬ ЗВОНОК</button>
+                </div>
+                <hr />
+                <div class="header__nav">
+                    <ul>
+                        <li class="text-1 ">
+                            <a href="#services">Услуги</a>
+                            <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                            </svg> 
+                            <ul class="drop-menu">
+                                <div></div>
+                                <li>
+                                    <p>Инъекционная косметология</p>
+                                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L4 4L1 7" stroke="#44881F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                            
+                                </li>
+                                <li>
+                                    <p>Аппаратная косметология</p>
+                                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L4 4L1 7" stroke="#44881F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <p>Нитевой лифтинг</p>
+                                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L4 4L1 7" stroke="#44881F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <p>Косметические услуги</p>
+                                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L4 4L1 7" stroke="#44881F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <ul class="sub-drop-menu">
+                                        <li>Комплексные чистки лица</li>
+                                        <li>Комплексные уходы для лица и зоны декольте</li>
+                                        <li>Комплексные уходы с применением массажных техник</li>
+                                        <li>Пирсинг</li>
+                                        <li>Парафинотерапия</li>
+                                        <li>Пилинг</li>
+                                        <li>Восковая депиляция</li>
+                                        <li>Полимерная депиляция Skins</li>
+                                        <li>Карбокситерапия Dermatime</li>
+                                        <li>Массаж тела</li>
+                                        <li>Обертывания моделирующие</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>Трихология</p>
+                                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L4 4L1 7" stroke="#44881F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <p>Генетические исследования</p>
+                                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L4 4L1 7" stroke="#44881F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <p>Пересадка волос</p>
+                                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L4 4L1 7" stroke="#44881F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="text-1"><a href="#promotions">Акции</a></li>
+                        <li class="text-1"><a>Прайс</a></li>
+                        <li class="text-1">
+                            <a>О центре</a>
+                            <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                            </svg> 
+                        </li>
+                        <li class="text-1">
+                            <a>Косметика</a>
+                            <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                            </svg> 
+                        </li>
+                        <li class="text-1"><a>Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="burger-menu _main">
+                <ul class="burger-menu__list">
+                    <li class="_clickable">
+                        <a href="#">Услуги</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>   
+                    </li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Прайс</a></li>
+                    <li>
+                        <a href="#">О центре</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>   
+                    </li>
+                    <li>
+                        <a href="#">Косметика</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>   
+                    </li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="header__location">
+                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                        <path d="M22.5 13C18.9064 13 16 15.817 16 19.3C16 24.025 22.5 31 22.5 31C22.5 31 29 24.025 29 19.3C29 15.817 26.0936 13 22.5 13ZM22.5 21.55C21.2186 21.55 20.1786 20.542 20.1786 19.3C20.1786 18.058 21.2186 17.05 22.5 17.05C23.7814 17.05 24.8214 18.058 24.8214 19.3C24.8214 20.542 23.7814 21.55 22.5 21.55Z" fill="#897B75"/>
+                    </svg>    
+                    <p>г. Чебоксары,<br />ул. Юрьева, д. 8/7, пом. 1</p>                        
+                </div>
+                <button class="_btn">ЗАКАЗАТЬ ЗВОНОК</button>
+                <div class="burger-menu__cross">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.6066 21.3934C22.2161 21.0029 21.5829 21.0029 21.1924 21.3934C20.8019 21.7839 20.8019 22.4171 21.1924 22.8076L22.6066 21.3934ZM40.9914 42.6066C41.3819 42.9971 42.0151 42.9971 42.4056 42.6066C42.7961 42.2161 42.7961 41.5829 42.4056 41.1924L40.9914 42.6066ZM21.1924 41.1924C20.8019 41.5829 20.8019 42.2161 21.1924 42.6066C21.5829 42.9971 22.2161 42.9971 22.6066 42.6066L21.1924 41.1924ZM42.4056 22.8076C42.7961 22.4171 42.7961 21.7839 42.4056 21.3934C42.0151 21.0029 41.3819 21.0029 40.9914 21.3934L42.4056 22.8076ZM21.1924 22.8076L40.9914 42.6066L42.4056 41.1924L22.6066 21.3934L21.1924 22.8076ZM22.6066 42.6066L42.4056 22.8076L40.9914 21.3934L21.1924 41.1924L22.6066 42.6066Z" fill="black"/>
+                    </svg>                        
+                </div>
+            </div>
+            <div class="burger-menu _sub">
+                <ul class="burger-menu__list">
+                    <li>
+                        <a href="#">Инъекционная косметология</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="#">Аппаратная косметология</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="#">Нитевой лифтинг</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>
+                    </li>
+                    <li class="_clickable">
+                        <a href="#">Косметические услуги</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="#">Трихология</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="#">Генетические исследования</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="#">Пересадка волос</a>
+                        <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 5.5L0 0.5H9L4.5 5.5Z" fill="#44881F"/>
+                        </svg>
+                    </li>
+                </ul>
+                <div class="burger-menu__cross">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.6066 21.3934C22.2161 21.0029 21.5829 21.0029 21.1924 21.3934C20.8019 21.7839 20.8019 22.4171 21.1924 22.8076L22.6066 21.3934ZM40.9914 42.6066C41.3819 42.9971 42.0151 42.9971 42.4056 42.6066C42.7961 42.2161 42.7961 41.5829 42.4056 41.1924L40.9914 42.6066ZM21.1924 41.1924C20.8019 41.5829 20.8019 42.2161 21.1924 42.6066C21.5829 42.9971 22.2161 42.9971 22.6066 42.6066L21.1924 41.1924ZM42.4056 22.8076C42.7961 22.4171 42.7961 21.7839 42.4056 21.3934C42.0151 21.0029 41.3819 21.0029 40.9914 21.3934L42.4056 22.8076ZM21.1924 22.8076L40.9914 42.6066L42.4056 41.1924L22.6066 21.3934L21.1924 22.8076ZM22.6066 42.6066L42.4056 22.8076L40.9914 21.3934L21.1924 41.1924L22.6066 42.6066Z" fill="black"/>
+                    </svg>                        
+                </div>
+                <div class="burger-menu__arrowback">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5429 32.4571C15.1524 32.0666 15.1524 31.4334 15.5429 31.0429L21.9069 24.6789C22.2974 24.2884 22.9305 24.2884 23.3211 24.6789C23.7116 25.0694 23.7116 25.7026 23.3211 26.0931L18.6642 30.75H47.75C48.3023 30.75 48.75 31.1977 48.75 31.75C48.75 32.3023 48.3023 32.75 47.75 32.75H18.6642L23.3211 37.4068C23.7116 37.7974 23.7116 38.4305 23.3211 38.8211C22.9305 39.2116 22.2974 39.2116 21.9069 38.8211L15.5429 32.4571Z" fill="black"/>
+                    </svg>                        
+                </div>
+            </div>
+            <div class="burger-menu _drop">
+                <ul class="burger-menu__list">
+                    <li><a href="">Комплексные чистки лица</a></li>
+                    <li><a href="">Комплексные уходы для лица и зоны декольте</a></li>
+                    <li><a href="">Комплексные уходы с применением массажных техник</a></li>
+                    <li><a href="">Пирсинг</a></li>
+                    <li><a href="">Парафинотерапия</a></li>
+                    <li><a href="">Пилинг</a></li>
+                    <li><a href="">Восковая депиляция</a></li>
+                    <li><a href="">Полимерная депиляция Skins</a></li>
+                    <li><a href="">Карбокситерапия Dermatime</a></li>
+                    <li><a href="">Массаж тела</a></li>
+                    <li><a href="">Обертывания моделирующие</a></li>
+                </ul>
+                <div class="burger-menu__cross">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.6066 21.3934C22.2161 21.0029 21.5829 21.0029 21.1924 21.3934C20.8019 21.7839 20.8019 22.4171 21.1924 22.8076L22.6066 21.3934ZM40.9914 42.6066C41.3819 42.9971 42.0151 42.9971 42.4056 42.6066C42.7961 42.2161 42.7961 41.5829 42.4056 41.1924L40.9914 42.6066ZM21.1924 41.1924C20.8019 41.5829 20.8019 42.2161 21.1924 42.6066C21.5829 42.9971 22.2161 42.9971 22.6066 42.6066L21.1924 41.1924ZM42.4056 22.8076C42.7961 22.4171 42.7961 21.7839 42.4056 21.3934C42.0151 21.0029 41.3819 21.0029 40.9914 21.3934L42.4056 22.8076ZM21.1924 22.8076L40.9914 42.6066L42.4056 41.1924L22.6066 21.3934L21.1924 22.8076ZM22.6066 42.6066L42.4056 22.8076L40.9914 21.3934L21.1924 41.1924L22.6066 42.6066Z" fill="black"/>
+                    </svg>                        
+                </div>
+                <div class="burger-menu__arrowback">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5429 32.4571C15.1524 32.0666 15.1524 31.4334 15.5429 31.0429L21.9069 24.6789C22.2974 24.2884 22.9305 24.2884 23.3211 24.6789C23.7116 25.0694 23.7116 25.7026 23.3211 26.0931L18.6642 30.75H47.75C48.3023 30.75 48.75 31.1977 48.75 31.75C48.75 32.3023 48.3023 32.75 47.75 32.75H18.6642L23.3211 37.4068C23.7116 37.7974 23.7116 38.4305 23.3211 38.8211C22.9305 39.2116 22.2974 39.2116 21.9069 38.8211L15.5429 32.4571Z" fill="black"/>
+                    </svg>                        
+                </div>
+            </div>
+        </header>
+        <!-- WELCOME SECTION -->
+        <section class="welcome-section">
+            <div class="welcome-section__container _container">
+                <div class="welcome-section__description">
+                    <h1 class="welcome-section__title">сохраним вашу<br /><span>молодость и красоту</span><br />на долгие годы</h1>
+                    <p class="welcome-section__text">
+                        Мы объединяем передовые технологии с высоким профессионализмом, чтобы помочь вам достичь
+                        желаемыхрезультатов в кратчайшие сроки.
+                    </p>
+                    <button class="welcome-section__button _btn">ЗАПИСАТЬСЯ</button>
+                </div>
+            </div>
+        </section>
+        <!-- PROMOTIONS -->
+        <section class="promotions" id="#promotions">
+            <div class="promotions__arrow _arrow _left">
+                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </div>
+            <div class="promotions__container _container">
+                <h2 class="promotions-title section-title">актуальные<span> акции</span></h2>
+                <div class="promotions-slider swiper-container">
+
+                    <div class="promotions-slider__wrapper swiper-wrapper">
+                        <div class="promotions-slider__item swiper-slide">
+                            <div class="promotions-slider__item__image">
+                                <img src="./assets/images/promotions/1.jpg" alt="peeling">
+                            </div>
+                            <div class="promotions-slider__item__text">
+                                <p class="promotions-slider__item__validity text-2">Сроки акции: 01.02.24-29.02.24</p>
+                                <h3 class="promotions-slider__item__title text-3">-15% на пилинги</h3>
+                                <p class="promotions-slider__item__description text-1">Скидка 15% на любые пилинги в комплексе с чисткой лица!</p>
+                                <a class="promotions-slider__item__link _link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        <div class="promotions-slider__item swiper-slide">
+                            <div class="promotions-slider__item__image">
+                                <img src="./assets/images/promotions/2.jpg" alt="birthday girl">
+                            </div>
+                            <div class="promotions-slider__item__text">
+                                <p class="promotions-slider__item__validity text-2">Сроки акции: 01.01.24- 31.12.24</p>
+                                <h3 class="promotions-slider__item__title text-3">Акция для именинников</h3>
+                                <p class="promotions-slider__item__description text-1">Акция для именинников в Центре Косметологии и Трихологии «Флоранс»!</p>
+                                <a class="promotions-slider__item__link _link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        <div class="promotions-slider__item swiper-slide">
+                            <div class="promotions-slider__item__image">
+                                <img src="./assets/images/promotions/3.jpg" alt="laser">
+                            </div>
+                            <div class="promotions-slider__item__text">
+                                <p class="promotions-slider__item__validity text-2">Сроки акции: 01.01.24- 31.12.24</p>
+                                <h3 class="promotions-slider__item__title text-3">Эрбиевый лазер MCL 31 Dermablate</h3>
+                                <p class="promotions-slider__item__description text-1">Скидка 10% на лазерную шлифовку!</p>
+                                <a class="promotions-slider__item__link _link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        
+                        <div class="promotions-slider__item swiper-slide">
+                            <div class="promotions-slider__item__image">
+                                <img src="./assets/images/promotions/1.jpg" alt="peeling">
+                            </div>
+                            <div class="promotions-slider__item__text">
+                                <p class="promotions-slider__item__validity text-2">Сроки акции: 01.02.24-29.02.24</p>
+                                <h3 class="promotions-slider__item__title text-3">-15% на пилинги</h3>
+                                <p class="promotions-slider__item__description text-1">Скидка 15% на любые пилинги в комплексе с чисткой лица!</p>
+                                <a class="promotions-slider__item__link _link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        <div class="promotions-slider__item swiper-slide">
+                            <div class="promotions-slider__item__image">
+                                <img src="./assets/images/promotions/2.jpg" alt="birthday girl">
+                            </div>
+                            <div class="promotions-slider__item__text">
+                                <p class="promotions-slider__item__validity text-2">Сроки акции: 01.01.24- 31.12.24</p>
+                                <h3 class="promotions-slider__item__title text-3">Акция для именинников</h3>
+                                <p class="promotions-slider__item__description text-1">Акция для именинников в Центре Косметологии и Трихологии «Флоранс»!</p>
+                                <a class="promotions-slider__item__link _link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        <div class="promotions-slider__item swiper-slide">
+                            <div class="promotions-slider__item__image">
+                                <img src="./assets/images/promotions/3.jpg" alt="laser">
+                            </div>
+                            <div class="promotions-slider__item__text">
+                                <p class="promotions-slider__item__validity text-2">Сроки акции: 01.01.24- 31.12.24</p>
+                                <h3 class="promotions-slider__item__title text-3">Эрбиевый лазер MCL 31 Dermablate</h3>
+                                <p class="promotions-slider__item__description text-1">Скидка 10% на лазерную шлифовку!</p>
+                                <a class="promotions-slider__item__link _link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        
+                        <div class="promotions-slider__item swiper-slide">
+                            <div class="promotions-slider__item__image">
+                                <img src="./assets/images/promotions/1.jpg" alt="peeling">
+                            </div>
+                            <div class="promotions-slider__item__text">
+                                <p class="promotions-slider__item__validity text-2">Сроки акции: 01.02.24-29.02.24</p>
+                                <h3 class="promotions-slider__item__title text-3">-15% на пилинги</h3>
+                                <p class="promotions-slider__item__description text-1">Скидка 15% на любые пилинги в комплексе с чисткой лица!</p>
+                                <a class="promotions-slider__item__link _link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        <div class="promotions-slider__item swiper-slide">
+                            <div class="promotions-slider__item__image">
+                                <img src="./assets/images/promotions/2.jpg" alt="birthday girl">
+                            </div>
+                            <div class="promotions-slider__item__text">
+                                <p class="promotions-slider__item__validity text-2">Сроки акции: 01.01.24- 31.12.24</p>
+                                <h3 class="promotions-slider__item__title text-3">Акция для именинников</h3>
+                                <p class="promotions-slider__item__description text-1">Акция для именинников в Центре Косметологии и Трихологии «Флоранс»!</p>
+                                <a class="promotions-slider__item__link _link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        <div class="promotions-slider__item swiper-slide">
+                            <div class="promotions-slider__item__image">
+                                <img src="./assets/images/promotions/3.jpg" alt="laser">
+                            </div>
+                            <div class="promotions-slider__item__text">
+                                <p class="promotions-slider__item__validity text-2">Сроки акции: 01.01.24- 31.12.24</p>
+                                <h3 class="promotions-slider__item__title text-3">Эрбиевый лазер MCL 31 Dermablate</h3>
+                                <p class="promotions-slider__item__description text-1">Скидка 10% на лазерную шлифовку!</p>
+                                <a class="promotions-slider__item__link _link">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="promotions__pagination swiper-pagination"></div>
+            </div>
+            <div class="promotions__arrow _arrow _right">
+                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </div>
+        </section>
+        <!-- SERVICES -->
+        <section class="services" id="services">
+            <div class="services__container _container">
+                <h2 class="services__title section-title">наши <span>услуги</span></h2>
+                <div class="services__main">
+                    <!-- Первая группа -->
+                    <div class="services__group _first-group">
+                        <div class="services__item item-services" id="item-services-1">
+                            <h3 class="item-services__title text-3"><span class="text-4">/01</span> ИНЪЕКЦИОННАЯ КОСМЕТОЛОГИЯ</h3>
+                            <ul class="item-services__list">
+                                <li class="text-1">Биоревитализация</li>
+                                <li class="text-1">Контурная пластика</li>
+                                <li class="text-1">Мезотерапия</li>
+                                <li class="text-1">Ботулинотерапия</li>
+                                <li class="text-1">Диспорт</li>
+                                <li class="text-1">Плазмотерапия</li>
+                                <li class="text-1">Плацентотерапия</li>
+                                <li class="text-1">Интимное омоложение</li>
+                            </ul>
+                            <div class="item-services__arrow _arrow _right">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="services__item item-services" id="item-services-2">
+                            <h3 class="item-services__title text-3"><span class="text-4">/02</span> АППАРАТНАЯ КОСМЕТОЛОГИЯ</h3>
+                            <ul class="item-services__list">
+                                <li class="text-1">Омоложение и лифтинг Skinova Pro</li>
+                                <li class="text-1">Многофункциональная лазерная платформа</li>
+                                <li class="text-1">SMAS-лифтинг Ultraformer</li>
+                                <li class="text-1">Гидропилинг HYDRO PEEL PLUS</li>
+                                <li class="text-1">Эрбиевый лазер Dermablate</li>
+                                <li class="text-1">Фракционное лазерное омоложение</li>
+                                <li class="text-1">Фотоомоложение (IPL терапия</li>
+                                <li class="text-1">RF-лифтинг Inus</li>
+                                <li class="text-1">RF-лифтинг Regen Pro</li>
+                                <li class="text-1">Фототерапия Estetica LightCare</li>
+                                <li class="text-1">Лазерная эпиляция</li>
+                                <li class="text-1">Лазерное устранение татуировок</li>
+                                <li class="text-1">Лазерный карбоновый пилинг</li>
+                                <li class="text-1">Карбокситерапия</li>
+                                <li class="text-1">LPG-массаж</li>
+                                <li class="text-1">Cortexil PRP</li>
+                                <li class="text-1">Микротоковая терапия</li>
+                                <li class="text-1">Прессотерапия (лимфодренаж)</li>
+                                <li class="text-1">Миостимуляция лица и тела</li>
+                            </ul>
+                            <div class="item-services__arrow _arrow _right">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="services__item item-services" id="item-services-3">
+                            <h3 class="item-services__title text-3"><span class="text-4">/03</span> НИТЕВОЙ ЛИФТИНГ</h3>
+                            <ul class="item-services__list">
+                                <li class="text-1">Лифтинг нитями Aptos</li>
+                                <li class="text-1">Тредлифтинг 3D мезонитями</li>
+                            </ul>
+                            <div class="item-services__arrow _arrow _right">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                    </div>
+                    <!--Вторая группа  -->
+                    <div class="services__group _second-group">
+                        <div class="services__item item-services" id="item-services-4">
+                            <h3 class="item-services__title text-3"><span class="text-4">/04</span> КОСМЕТИЧЕСКИЕ УСЛУГИ</h3>
+                            <ul class="item-services__list">
+                                <li class="text-1">Комплексные чистки лица</li>
+                                <li class="text-1">Комплексные уходы для лица и зоны декольте</li>
+                                <li class="text-1">Комплексные уходы с применением массажных техник</li>
+                                <li class="text-1">Пирсинг</li>
+                                <li class="text-1">Парафинотерапия</li>
+                                <li class="text-1">Пилинг</li>
+                                <li class="text-1">Восковая депиляция</li>
+                                <li class="text-1">Полимерная депиляция Skins</li>
+                                <li class="text-1">Карбокситерапия Dermatime</li>
+                                <li class="text-1">Массаж тела</li>
+                                <li class="text-1">Обертывания моделирующие</li>
+                            </ul>
+                            <div class="item-services__arrow _arrow _right">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="services__item item-services" id="item-services-5">
+                            <h3 class="item-services__title text-3"><span class="text-4">/05</span> ТРИХОЛОГИЯ</h3>
+                            <ul class="item-services__list">
+                                <li class="text-1">Плазмотерапия</li>
+                                <li class="text-1">Фототрихограмма</li>
+                                <li class="text-1">Трихоскопия</li>
+                                <li class="text-1">Пилинг кожи головы</li>
+                                <li class="text-1">Лазер</li>
+                                <li class="text-1">Криомассаж</li>
+                                <li class="text-1">Дарсонваль</li>
+                                <li class="text-1">Микротоковая терапия</li>
+                                <li class="text-1">Мезотерапия</li>
+                                <li class="text-1">Чэнс</li>
+                                <li class="text-1">УЗ терапия волосистой части головы</li>
+                            </ul>
+                            <div class="item-services__arrow _arrow _right">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Третья група -->
+                    <div class="services__group _third-group">
+                         <div class="services__item item-services" id="item-services-6">
+                            <h3 class="item-services__title text-3"><span class="text-4">/06</span> ГЕНЕТИЧЕСКИЕ ИССЛЕДОВАНИЯ</h3>
+                            <ul class="item-services__list">
+                                <li class="text-1">Генетические исследования</li>    
+                            </ul>
+                            <div class="item-services__arrow _arrow _right">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="services__item item-services" id="item-services-7">
+                            <h3 class="item-services__title text-3"><span class="text-4">/06</span> ПЕРЕСАДКА ВОЛОС</h3>
+                            <ul class="item-services__list">
+                                <li class="text-1">Пересадка волос бесшовным методом</li>    
+                                <li class="text-1">Пересадка бровей</li>    
+                            </ul>
+                            <div class="item-services__arrow _arrow _right">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- RESULTS -->
+        <section class="results">
+            <div class="results__container _container">
+                <h2 class="result__title section-title">потрясающие <span>результаты</span> после процедур</h2>
+                <div class="results__main">
+                    <div class="result__item">
+                        <div class="result__item__image">
+                            <img src="./assets/images/results/1.jpg" alt="image">
+                        </div>
+                        <h3 class="results__item__title">название процедуры</h3>
+                        <p class="result__item__text">Работа врача-косметолога <br>Атмалкиной Светланы Юрьевны</p>
+                    </div>
+                    <div class="result__item">
+                        <div class="result__item__image">
+                            <img src="./assets/images/results/2.jpg" alt="image">
+                        </div>
+                        <h3 class="results__item__title">название процедуры</h3>
+                        <p class="result__item__text">Работа врача-косметолога <br>Атмалкиной Светланы Юрьевны</p>
+                    </div>
+                    <div class="result__item">
+                        <div class="result__item__image">
+                            <img src="./assets/images/results/3.jpg" alt="image">
+                        </div>
+                        <h3 class="results__item__title">название процедуры</h3>
+                        <p class="result__item__text">Работа врача-косметолога <br>Атмалкиной Светланы Юрьевны</p>
+                    </div>
+                    <div class="result__item">
+                        <div class="result__item__image">
+                            <img src="./assets/images/results/4.jpg" alt="image">
+                        </div>
+                        <h3 class="results__item__title">название процедуры</h3>
+                        <p class="result__item__text">Работа врача-косметолога <br>Михайловой Юлии Альбертовны</p>
+                    </div>
+                    <div class="result__item">
+                        <div class="result__item__image">
+                            <img src="./assets/images/results/5.jpg" alt="image">
+                        </div>
+                        <h3 class="results__item__title">название процедуры</h3>
+                        <p class="result__item__text">Работа врача-косметолога <br>Соловьевой Татьяны Ревленовны</p>
+                    </div>
+                    <div class="result__item">
+                        <div class="result__item__image">
+                            <img src="./assets/images/results/6.jpg" alt="image">
+                        </div>
+                        <h3 class="results__item__title">название процедуры</h3>
+                        <p class="result__item__text">Работа врача-косметолога <br>Михайловой Юлии Альбертовны</p>
+                    </div>
+                    <div class="result__item">
+                        <div class="result__item__image">
+                            <img src="./assets/images/results/7.jpg" alt="image">
+                        </div>
+                        <h3 class="results__item__title">название процедуры</h3>
+                        <p class="result__item__text">Работа врача-трихолога Тюриковой Екатерины Анатольевны</p>
+                    </div>
+                    <div class="result__item">
+                        <div class="result__item__image">
+                            <img src="./assets/images/results/8.jpg" alt="image">
+                        </div>
+                        <h3 class="results__item__title">название процедуры</h3>
+                        <p class="result__item__text">Работа врача-трихолога Тюриковой Екатерины Анатольевны</p>
+                    </div>
+                </div>
+                <div class="result__button _btn">ЗАГРУЗИТЬ ЕЩЁ</div>
+            </div>
+        </section>
+        <!-- CENTER -->
+        <section class="center">
+            <div class="center__container _container">
+                <div class="center__description">
+                    <div class="center__description__text">
+                        <h2 class="center__title section-title">центр косметологии <span>«Флоранс»</span></h2>
+                        <p class="text-1">
+                            В работе мы руководствуемся, в первую очередь, не модой и изменчивыми стереотипами о внешности,
+                            а пониманием ценности каждого человека с его индивидуальными, неповторимыми особенностями, данной
+                            красотой, уровнем здоровья и ощущением себя. Мы никогда не стремились быть конвейером со
+                            стандартным машинальным отношением к внешности человека, как к внешности куклы Барби.
+                        </p>
+                        <p class="text-1">
+                            Мы стремимся найти индивидуальный подход к каждому клиенту, помогая раскрыть красоту тела и души,
+                            чтобы каждый мог обрести уверенность в себе и своей привлекательности, ощутить радость от
+                            преображения, а значит улучшить качество жизни.
+                        </p>
+                        <p class="text-4">«Здоровье для красоты. Красота для жизни»</p>
+                        <p class="text-1">Мы оказываем полный спектр наиболее популярных услуг, которые позволят вам
+                            выглядеть лучше, изменить настроение и отношение других к себе.
+                        </p>
+                    </div>
+                    <div class="center__description__stat">
+                        <div class="center__description__stat__item stat-item">
+                            <p class="stat-item__count">15</p>
+                            <p class="stat-item__text text-1">лет на рынке<br />косметологии</p>
+                        </div>
+                        <div class="center__description__stat__item stat-item">
+                            <p class="stat-item__count">700+</p>
+                            <p class="stat-item__text text-1">постоянных<br />клиентов</p>
+                        </div>
+                        <div class="center__description__stat__item stat-item">
+                            <p class="stat-item__count">1000+</p>
+                            <p class="stat-item__text text-1">косметологических<br />процедур</p>
+                        </div>
+                        <div class="center__description__stat__item stat-item">
+                            <p class="stat-item__count">6</p>
+                            <p class="stat-item__text text-1">опытных<br />косметологов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center-slider">
+                <div class="center-slider__slide _small">
+                    <img src="./assets/images/center/1.jpg" alt="">
+                </div>
+                <div class="center-slider__arrow _arrow _left">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                </div>
+                <div class="center-slider__slide _big">
+                    <img src="./assets/images/center/2.jpg" alt="">
+                </div>
+                <div class="center-slider__arrow _arrow _right">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                </div>
+                <div class="center-slider__slide _small">
+                    <img src="./assets/images/center/1.jpg" alt="">
+                </div>
+                <div class="center-slider__pagination">
+                    <div class="_active"></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+        <!-- RATINGS -->
+        <section class="ratings">
+            <div class="ratings__container _container">
+                <h2 class="ratings__title section-title">независимые <span>рейтинги</span></h2>
+                <div class="ratings__main">
+                    <div class="ratings__item item-rating">
+                        <div class="item-rating__logo">
+                            <img src="./assets/images/ratings/yandex.svg" alt="yandex">
+                        </div>
+                        <div class="item-rating__main">
+                            <p class="item-rating__rating">4,9</p>
+                            <div class="item-rating__main__right">
+                                <div class="item-rating__stars">
+                                    <img src="./assets/images/ratings/yandex-stars.svg" alt="">
+                                </div>
+                                <p class="item-rating__count">101 отзыв</p>
+                            </div>
+                        </div>
+                        <a class="item-rating__link _link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <div class="ratings__item item-rating">
+                        <div class="item-rating__logo">
+                            <img src="./assets/images/ratings/2gis.svg" alt="2gis">
+                        </div>
+                        <div class="item-rating__main">
+                            <p class="item-rating__rating">4,5</p>
+                            <div class="item-rating__main__right">
+                                <div class="item-rating__stars">
+                                    <img src="./assets/images/ratings/2gis-stars.svg" alt="">
+                                </div>
+                                <p class="item-rating__count">21 отзыв</p>
+                            </div>
+                        </div>
+                        <a class="item-rating__link _link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <div class="ratings__item item-rating">
+                        <div class="item-rating__logo">
+                            <img src="./assets/images/ratings/prodoctorov.svg" alt="prodoctorov">
+                        </div>
+                        <div class="item-rating__main">
+                            <p class="item-rating__rating">4,0</p>
+                            <div class="item-rating__main__right">
+                                <div class="item-rating__stars">
+                                    <img src="./assets/images/ratings/prpdoctorov-stars.svg" alt="">
+                                </div>
+                                <p class="item-rating__count">17 отзывов</p>
+                            </div>
+                        </div>
+                        <a class="item-rating__link _link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TRANSPANTATION -->
+        <section class="transplantation">
+            <div class="transplantation__container _container">
+                <h2 class="transplantation__title section-title">ПРЕДОСТАВЛЯЕМ НОВУЮ УСЛУГУ — <span>ПЕРЕСАДКА ВОЛОС</span></h2>
+                <div class="transplantation__text">
+                    <p class="text-1">
+                        В нашей клинике мы предлагаем высококачественную услугу по пересадке волос, которая поможет вам
+                        вернуть естественную густоту и красоту волос. Наши опытные специалисты используют передовые методы и
+                        технологии для достижения естественного и долговременного результата.
+                    </p>
+                    <p class="text-1">
+                        Доверьтесь нам, и мы поможем вам обрести уверенность и радость вновь через здоровые и красивые
+                        волосы. Запишитесь на бесплатную консультацию прямо сейчас!
+                    </p>
+                </div>
+                <div class="transplantation__buttons">
+                    <button class="_btn">ЗАПИСАТЬСЯ</button>
+                    <button class="_btn">ПОДРОБНЕЕ</button>
+                </div>
+            </div>
+        </section>
+        <!-- EQUIPMENT -->
+        <section class="equipment">
+            <div class="equipment__arrow _arrow _left">
+                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </div>
+            <div class="equipment__container _container">
+                <h2 class="equipment-title section-title">Центр оснащен <span>профессиональным оборудованием</span> последнего поколения</h2>
+                <div class="equipment-slider swiper-container">
+                    <div class="equipment-slider__wrapper swiper-wrapper">
+                        <div class="equipment-slider__item swiper-slide">
+                            <h3 class="equipment-slider__title">Alma Harmony XL Pro</h3>
+                            <p class="equipment__slider__country">Страна производства — Израиль</p>
+                            <p class="equipment__text">
+                                Платформа Harmony XL позволяет избавиться от купероза, провести процедуры омоложения, справиться с морщинами
+                                и очистить кожу лица без длительной реабилитации и восстановительного периода.
+                            </p>
+                            <a class="equipment_link _link">ПОДРОБНЕЕ</a>
+                            <img src="./assets/images/equipment/1.svg" alt="">
+                        </div>
+                        <div class="equipment-slider__item swiper-slide">
+                            <h3 class="equipment-slider__title">Ultraformer</h3>
+                            <p class="equipment__slider__country">Страна производства — Корея</p>
+                            <p class="equipment__text">
+                                Аппарат предназначен для SMAS-лифтинга при помощи высокоинтенсивного сфокусированного
+                                ультразвука. Оборудование используется для устранения возрастных изменений тела и кожных
+                                покровов, а также деформации контура лица.
+                            </p>
+                            <a class="equipment_link _link">ПОДРОБНЕЕ</a>
+                            <img src="./assets/images/equipment/2.svg" alt="">
+                        </div>
+                        <div class="equipment-slider__item swiper-slide">
+                            <h3 class="equipment-slider__title">Inus</h3>
+                            <p class="equipment__slider__country">Страна производства — Корея</p>
+                            <p class="equipment__text">
+                                Inus — это аппарат для фракционного микроигольчатого радиочастотного лифтинга. В основе его
+                                работы лежит контролируемое воздействие биполярной радиочастотной энергией с глубиной
+                                проникновения от 0,5 до 3,5 мм.
+                            </p>
+                            <a class="equipment_link _link">ПОДРОБНЕЕ</a>
+                            <img src="./assets/images/equipment/3.svg" alt="">
+                        </div>
+
+                        <div class="equipment-slider__item swiper-slide">
+                            <h3 class="equipment-slider__title">Alma Harmony XL Pro</h3>
+                            <p class="equipment__slider__country">Страна производства — Израиль</p>
+                            <p class="equipment__text">
+                                Платформа Harmony XL позволяет избавиться от купероза, провести процедуры омоложения, справиться с морщинами
+                                и очистить кожу лица без длительной реабилитации и восстановительного периода.
+                            </p>
+                            <a class="equipment_link _link">ПОДРОБНЕЕ</a>
+                            <img src="./assets/images/equipment/1.svg" alt="">
+                        </div>
+                        <div class="equipment-slider__item swiper-slide">
+                            <h3 class="equipment-slider__title">Ultraformer</h3>
+                            <p class="equipment__slider__country">Страна производства — Корея</p>
+                            <p class="equipment__text">
+                                Аппарат предназначен для SMAS-лифтинга при помощи высокоинтенсивного сфокусированного
+                                ультразвука. Оборудование используется для устранения возрастных изменений тела и кожных
+                                покровов, а также деформации контура лица.
+                            </p>
+                            <a class="equipment_link _link">ПОДРОБНЕЕ</a>
+                            <img src="./assets/images/equipment/2.svg" alt="">
+                        </div>
+                        <div class="equipment-slider__item swiper-slide">
+                            <h3 class="equipment-slider__title">Inus</h3>
+                            <p class="equipment__slider__country">Страна производства — Корея</p>
+                            <p class="equipment__text">
+                                Inus — это аппарат для фракционного микроигольчатого радиочастотного лифтинга. В основе его
+                                работы лежит контролируемое воздействие биполярной радиочастотной энергией с глубиной
+                                проникновения от 0,5 до 3,5 мм.
+                            </p>
+                            <a class="equipment_link _link">ПОДРОБНЕЕ</a>
+                            <img src="./assets/images/equipment/3.svg" alt="">
+                        </div>
+                    
+                        <div class="equipment-slider__item swiper-slide">
+                            <h3 class="equipment-slider__title">Alma Harmony XL Pro</h3>
+                            <p class="equipment__slider__country">Страна производства — Израиль</p>
+                            <p class="equipment__text">
+                                Платформа Harmony XL позволяет избавиться от купероза, провести процедуры омоложения, справиться с морщинами
+                                и очистить кожу лица без длительной реабилитации и восстановительного периода.
+                            </p>
+                            <a class="equipment_link _link">ПОДРОБНЕЕ</a>
+                            <img src="./assets/images/equipment/1.svg" alt="">
+                        </div>
+                        <div class="equipment-slider__item swiper-slide">
+                            <h3 class="equipment-slider__title">Ultraformer</h3>
+                            <p class="equipment__slider__country">Страна производства — Корея</p>
+                            <p class="equipment__text">
+                                Аппарат предназначен для SMAS-лифтинга при помощи высокоинтенсивного сфокусированного
+                                ультразвука. Оборудование используется для устранения возрастных изменений тела и кожных
+                                покровов, а также деформации контура лица.
+                            </p>
+                            <a class="equipment_link _link">ПОДРОБНЕЕ</a>
+                            <img src="./assets/images/equipment/2.svg" alt="">
+                        </div>
+                        <div class="equipment-slider__item swiper-slide">
+                            <h3 class="equipment-slider__title">Inus</h3>
+                            <p class="equipment__slider__country">Страна производства — Корея</p>
+                            <p class="equipment__text">
+                                Inus — это аппарат для фракционного микроигольчатого радиочастотного лифтинга. В основе его
+                                работы лежит контролируемое воздействие биполярной радиочастотной энергией с глубиной
+                                проникновения от 0,5 до 3,5 мм.
+                            </p>
+                            <a class="equipment_link _link">ПОДРОБНЕЕ</a>
+                            <img src="./assets/images/equipment/3.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="equipment__pagination swiper-pagination"></div>
+            </div>
+            <div class="equipment__arrow _arrow _right">
+                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </div>
+        </section>
+        <!-- EMPLOYERS -->
+        <section class="employers">
+            <div class="employers__container _container">
+                <h2 class="employers__title section-title"><span>специалисты</span> клиники «Флоранс»</h2>
+                <div class="employers__main">
+                    <div class="employers__item employer-item">
+                        <div class="employer-item__image">
+                            <img src="./assets/images/employers/1.jpg" alt="">
+                        </div>
+                        <div class="employer-item__main">
+                            <h3 class="employer-item__title">Атмалкина Светлана Юрьевна</h3>
+                            <p class="employer-item__job">Врач-косметолог, главный врач клиники</p>
+                            <div class="employer-item__text">
+                                <p>Общий медицинский стаж: 29 лет</p>
+                                <p>Стаж по специальности косметология: 19 лет</p>
+                            </div>
+                            <div class="employer-item__buttons">
+                                <button class="_btn">ЗАПИСАТЬСЯ</button>
+                                <button class="_btn">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="employers__item employer-item">
+                        <div class="employer-item__image">
+                            <img src="./assets/images/employers/2.jpg" alt="">
+                        </div>
+                        <div class="employer-item__main">
+                            <h3 class="employer-item__title">Соловьева Татьяна Ревленовна</h3>
+                            <p class="employer-item__job">Врач-косметолог, дерматолог, трихолог</p>
+                            <div class="employer-item__text">
+                                <p>Общий медицинский стаж: 21 год</p>
+                                <p>Стаж по специальности косметология: 12 лет</p>
+                                <p>Стаж по специальности трихология: 2 года</p>
+                            </div>
+                            <div class="employer-item__buttons">
+                                <button class="_btn">ЗАПИСАТЬСЯ</button>
+                                <button class="_btn">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="employers__item employer-item">
+                        <div class="employer-item__image">
+                            <img src="./assets/images/employers/3.jpg" alt="">
+                        </div>
+                        <div class="employer-item__main">
+                            <h3 class="employer-item__title">Тюрикова Екатерина Анатольевна</h3>
+                            <p class="employer-item__job">Врач-трихолог, косметолог</p>
+                            <div class="employer-item__text">
+                                <p>Общий медицинский стаж: 14 лет</p>
+                                <p>Стаж по специальности косметология 11 лет</p>
+                                <p>Стаж по специальности трихология 10 лет</p>
+                            </div>
+                            <div class="employer-item__buttons">
+                                <button class="_btn">ЗАПИСАТЬСЯ</button>
+                                <button class="_btn">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="employers__item employer-item">
+                        <div class="employer-item__image">
+                            <img src="./assets/images/employers/4.jpg" alt="">
+                        </div>
+                        <div class="employer-item__main">
+                            <h3 class="employer-item__title">Михайлова Юлия Альбертовна</h3>
+                            <p class="employer-item__job">Врач-косметолог, дерматолог</p>
+                            <div class="employer-item__text">
+                                <p>Общий медицинский стаж: 10 лет</p>
+                                <p>Стаж по специальности косметология: 8 лет</p>
+                            </div>
+                            <div class="employer-item__buttons">
+                                <button class="_btn">ЗАПИСАТЬСЯ</button>
+                                <button class="_btn">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="employers__item employer-item">
+                        <div class="employer-item__image">
+                            <img src="./assets/images/employers/5.jpg" alt="">
+                        </div>
+                        <div class="employer-item__main">
+                            <h3 class="employer-item__title">Васильева Алина Анатольевна</h3>
+                            <p class="employer-item__job">Медицинская сестра по косметологии</p>
+                            <div class="employer-item__text">
+                                <p>Общий медицинский стаж: 36 лет</p>
+                                <p>Стаж по специальности сестринское дело в косметологии: 16 лет</p>
+                            </div>
+                            <div class="employer-item__buttons">
+                                <button class="_btn">ЗАПИСАТЬСЯ</button>
+                                <button class="_btn">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="employers__item employer-item">
+                        <div class="employer-item__image">
+                            <img src="./assets/images/employers/6.jpg" alt="">
+                        </div>
+                        <div class="employer-item__main">
+                            <h3 class="employer-item__title">Баева Татьяна Николаевна</h3>
+                            <p class="employer-item__job">Медицинская сестра по косметологии</p>
+                            <div class="employer-item__text">
+                                <p>Общий медицинский стаж: 19 лет</p>
+                                <p>Стаж по специальности сестринское дело в косметологии: 4 лет</p>
+                            </div>
+                            <div class="employer-item__buttons">
+                                <button class="_btn">ЗАПИСАТЬСЯ</button>
+                                <button class="_btn">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ -->
+        <section class="faq">
+            <div class="faq__container _container">
+                <h2 class="faq__title section-title">часто задаваемые <span>вопросы</span></h2>
+                <div class="faq__main">
+                    <div class="faq__questions">
+                        <div class="faq__question">
+                            <div class="faq__question__text">
+                                <h3 class="faq__question__title">За сколько времени до начала процедуры приходить?</h3>
+                                <p class="text-1">
+                                    Вы не обязаны разбираться в косметологии, для этого есть специалисты нашего центра. Наша
+                                    задача подобрать такие методы, которые обеспечат лучший эффект именно для вас. Поэтому для
+                                    каждого пациента мы составляем индивидуальную программу и гарантируем результат, которым вы
+                                    будете довольны.
+                                </p>
+                            </div>
+                            <div class="faq__question__arrow _arrow _bottom">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="faq__question">
+                            <div class="faq__question__text">
+                                <h3 class="faq__question__title">
+                                    Во сколько лет нужно начинать заботиться о своей коже с помощью профессиональных
+                                    методов омоложения?
+                                </h3>
+                                <p class="text-1">
+                                    Вы не обязаны разбираться в косметологии, для этого есть специалисты нашего центра. Наша
+                                    задача подобрать такие методы, которые обеспечат лучший эффект именно для вас. Поэтому для
+                                    каждого пациента мы составляем индивидуальную программу и гарантируем результат, которым вы
+                                    будете довольны.
+                                </p>
+                            </div>
+                            <div class="faq__question__arrow _arrow _bottom">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="faq__question">
+                            <div class="faq__question__text">
+                                <h3 class="faq__question__title">
+                                    Есть недовольство своей внешностью, но не знаю, что именно мне нужно
+                                </h3>
+                                <p class="text-1">
+                                    Вы не обязаны разбираться в косметологии, для этого есть специалисты нашего центра. Наша
+                                    задача подобрать такие методы, которые обеспечат лучший эффект именно для вас. Поэтому для
+                                    каждого пациента мы составляем индивидуальную программу и гарантируем результат, которым вы
+                                    будете довольны.
+                                </p>
+                            </div>
+                            <div class="faq__question__arrow _arrow _bottom">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="faq__question">
+                            <div class="faq__question__text">
+                                <h3 class="faq__question__title">
+                                    Каким образом мне подготовиться к процедуре? Как и где переодеться?
+                                </h3>
+                                <p class="text-1">
+                                    Вы не обязаны разбираться в косметологии, для этого есть специалисты нашего центра. Наша
+                                    задача подобрать такие методы, которые обеспечат лучший эффект именно для вас. Поэтому для
+                                    каждого пациента мы составляем индивидуальную программу и гарантируем результат, которым вы
+                                    будете довольны.
+                                </p>
+                            </div>
+                            <div class="faq__question__arrow _arrow _bottom">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="faq__question">
+                            <div class="faq__question__text">
+                                <h3 class="faq__question__title">
+                                    Существуют ли процедуры, которые противопоказано делать летом?
+                                </h3>
+                                <p class="text-1">
+                                    Вы не обязаны разбираться в косметологии, для этого есть специалисты нашего центра. Наша
+                                    задача подобрать такие методы, которые обеспечат лучший эффект именно для вас. Поэтому для
+                                    каждого пациента мы составляем индивидуальную программу и гарантируем результат, которым вы
+                                    будете довольны.
+                                </p>
+                            </div>
+                            <div class="faq__question__arrow _arrow _bottom">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                        <div class="faq__question">
+                            <div class="faq__question__text">
+                                <h3 class="faq__question__title">Можно ли отменить или перенести процедуру?</h3>
+                                <p class="text-1">
+                                    Вы не обязаны разбираться в косметологии, для этого есть специалисты нашего центра. Наша
+                                    задача подобрать такие методы, которые обеспечат лучший эффект именно для вас. Поэтому для
+                                    каждого пациента мы составляем индивидуальную программу и гарантируем результат, которым вы
+                                    будете довольны.
+                                </p>
+                            </div>
+                            <div class="faq__question__arrow _arrow _bottom">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq__form form-faq">
+                        <div class="form-faq__social-media">
+                            <a href="#">
+                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="56" height="56" rx="28" fill="#F3F2F0" fill-opacity="0.2"/>
+                                    <path d="M27.5 17C33.2992 17 38 21.7008 38 27.5C38 33.2991 33.2992 38 27.5 38C25.6444 38.003 23.8215 37.5119 22.2185 36.5772L17.0042 38L18.4238 32.7836C17.4884 31.1801 16.9969 29.3564 17 27.5C17 21.7008 21.7009 17 27.5 17ZM23.9216 22.565L23.7116 22.5734C23.5757 22.5817 23.4428 22.6174 23.321 22.6784C23.2071 22.7429 23.1031 22.8235 23.0123 22.9178C22.8863 23.0364 22.8149 23.1393 22.7383 23.2391C22.3499 23.744 22.1408 24.364 22.144 25.001C22.1461 25.5155 22.2805 26.0163 22.4905 26.4846C22.9199 27.4317 23.6266 28.4345 24.559 29.3637C24.7837 29.5874 25.0042 29.8121 25.2415 30.021C26.4 31.0411 27.7806 31.7767 29.2735 32.1693L29.8699 32.2607C30.0641 32.2712 30.2584 32.2565 30.4537 32.247C30.7595 32.2313 31.0581 32.1485 31.3283 32.0045C31.4658 31.9337 31.6 31.8566 31.7305 31.7735C31.7305 31.7735 31.7756 31.7441 31.8617 31.679C32.0035 31.574 32.0906 31.4994 32.2082 31.3766C32.2954 31.2863 32.371 31.1802 32.4287 31.0595C32.5106 30.8883 32.5925 30.5618 32.6261 30.2898C32.6513 30.0819 32.644 29.9685 32.6408 29.8982C32.6366 29.7858 32.5432 29.6693 32.4413 29.6199L31.8302 29.3459C31.8302 29.3459 30.9167 28.9479 30.3581 28.6938C30.2997 28.6683 30.237 28.6537 30.1733 28.6508C30.1015 28.6434 30.0289 28.6515 29.9604 28.6745C29.892 28.6975 29.8292 28.7349 29.7764 28.7841C29.7712 28.782 29.7008 28.8419 28.9417 29.7617C28.8981 29.8202 28.8381 29.8645 28.7692 29.8888C28.7004 29.9131 28.6259 29.9164 28.5553 29.8982C28.4869 29.8799 28.4198 29.8567 28.3547 29.8289C28.2245 29.7743 28.1794 29.7533 28.0901 29.7155C27.4875 29.4525 26.9295 29.0972 26.4364 28.6623C26.3041 28.5468 26.1812 28.4208 26.0552 28.299C25.6421 27.9034 25.2821 27.4559 24.9842 26.9676L24.9223 26.8679C24.8778 26.8009 24.8418 26.7286 24.8152 26.6526C24.7753 26.4983 24.8792 26.3744 24.8792 26.3744C24.8792 26.3744 25.1344 26.0951 25.253 25.9439C25.3685 25.7969 25.4662 25.6541 25.5292 25.5522C25.6531 25.3527 25.6919 25.148 25.6268 24.9894C25.3328 24.2712 25.0283 23.5562 24.7154 22.8464C24.6535 22.7057 24.4697 22.6049 24.3028 22.5849C24.2461 22.5786 24.1894 22.5723 24.1327 22.5681C23.9917 22.5611 23.8504 22.5625 23.7095 22.5723L23.9216 22.565Z" fill="#D4CBB7"/>
+                                </svg> 
+                            </a>
+                            <a href="#">
+                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="56" height="56" rx="28" fill="#F3F2F0" fill-opacity="0.2"/>
+                                    <g clip-path="url(#clip0_1_89)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M36.6176 19.13C36.9004 19.0149 37.2099 18.9752 37.5139 19.015C37.818 19.0549 38.1054 19.1728 38.3463 19.3565C38.5873 19.5402 38.7729 19.783 38.8838 20.0596C38.9948 20.3362 39.027 20.6365 38.9772 20.9293L36.3819 36.1526C36.1301 37.621 34.4639 38.4631 33.0713 37.7316C31.9063 37.1197 30.1761 36.1769 28.6197 35.1931C27.8416 34.7007 25.4579 33.1238 25.7509 32.0018C26.0026 31.0424 30.0078 27.4371 32.2965 25.2937C33.1948 24.4515 32.7852 23.9658 31.7244 24.7404C29.0901 26.6636 24.8606 29.5883 23.4622 30.4116C22.2286 31.1375 21.5854 31.2615 20.8164 31.1375C19.4135 30.9118 18.1123 30.5621 17.0504 30.1361C15.6154 29.5606 15.6852 27.6529 17.0492 27.0974L36.6176 19.13Z" fill="#D4CBB7"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_89">
+                                    <rect width="25" height="25" fill="white" transform="translate(15 15)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>    
+                            </a>
+                            <a href="#">
+                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="56" height="56" rx="28" fill="#F3F2F0" fill-opacity="0.2"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.0824 17.5668C29.7351 16.8111 26.2639 16.8111 22.9166 17.5668L22.5559 17.6474C21.6143 17.86 20.7496 18.3321 20.0576 19.0113C19.3657 19.6904 18.8737 20.55 18.6364 21.4945C17.7879 24.8715 17.7879 28.4091 18.6364 31.7861C18.8627 32.6869 19.3209 33.5113 19.9644 34.1756C20.6079 34.8399 21.4138 35.3205 22.3005 35.5688L22.7953 38.5519C22.8111 38.6466 22.8517 38.7354 22.913 38.8088C22.9743 38.8823 23.0539 38.9378 23.1436 38.9697C23.2334 39.0015 23.3299 39.0084 23.4232 38.9898C23.5165 38.9711 23.6031 38.9275 23.6741 38.8636L26.5797 36.2383C28.7608 36.3727 30.9499 36.1965 33.0824 35.7149L33.4442 35.6343C34.3857 35.4217 35.2505 34.9496 35.9424 34.2705C36.6343 33.5913 37.1263 32.7317 37.3637 31.7872C38.2121 28.4102 38.2121 24.8726 37.3637 21.4956C37.1262 20.5509 36.6341 19.6913 35.942 19.0121C35.2499 18.333 34.3849 17.8609 33.4431 17.6485L33.0824 17.5668ZM23.8145 21.4075C23.6168 21.3784 23.4152 21.4186 23.2432 21.5214H23.2283C22.8293 21.7578 22.4697 22.0555 22.1633 22.4058C21.908 22.7035 21.7696 23.0044 21.7335 23.2945C21.7122 23.4665 21.7271 23.6405 21.7771 23.805L21.7962 23.8157C22.0835 24.6679 22.458 25.4878 22.9155 26.2594C23.5054 27.3431 24.2313 28.3454 25.0753 29.2414L25.1008 29.278L25.1412 29.3081L25.1657 29.3371L25.1955 29.3629C26.0857 30.2179 27.0804 30.9546 28.1554 31.5551C29.3842 32.231 30.13 32.5502 30.5779 32.6834V32.6899C30.7088 32.7307 30.828 32.749 30.9482 32.749C31.3297 32.7205 31.6907 32.5639 31.9738 32.3041C32.3196 31.9946 32.6122 31.6303 32.8399 31.2252V31.2177C33.0537 30.8093 32.9814 30.4246 32.6728 30.1635C32.0531 29.6165 31.3829 29.1307 30.6716 28.7127C30.1949 28.4516 29.7108 28.6096 29.5151 28.8739L29.0969 29.4069C28.882 29.6713 28.4926 29.6348 28.4926 29.6348L28.482 29.6412C25.5764 28.8922 24.8008 25.9209 24.8008 25.9209C24.8008 25.9209 24.7646 25.5168 25.0338 25.3105L25.5572 24.885C25.8083 24.6786 25.9828 24.1907 25.7136 23.7093C25.3025 22.9901 24.8225 22.3135 24.2805 21.689C24.1623 21.5421 23.9965 21.442 23.8124 21.4064L23.8145 21.4075ZM28.7235 20.1158C28.5824 20.1158 28.4471 20.1724 28.3474 20.2732C28.2476 20.3739 28.1915 20.5106 28.1915 20.6531C28.1915 20.7956 28.2476 20.9323 28.3474 21.033C28.4471 21.1338 28.5824 21.1904 28.7235 21.1904C30.0694 21.1904 31.1865 21.6342 32.0706 22.4853C32.5249 22.9506 32.8792 23.5019 33.1112 24.1059C33.3442 24.7109 33.4506 25.3567 33.4229 26.0036C33.42 26.0742 33.4308 26.1446 33.4548 26.211C33.4789 26.2773 33.5156 26.3382 33.5629 26.3902C33.6585 26.4952 33.7914 26.5575 33.9325 26.5635C34.0736 26.5695 34.2113 26.5186 34.3152 26.4221C34.4192 26.3256 34.4809 26.1913 34.4868 26.0488C34.5198 25.253 34.389 24.459 34.1027 23.7168C33.8152 22.9712 33.3792 22.2931 32.8218 21.7245L32.8111 21.7138C31.7142 20.6553 30.3258 20.1158 28.7235 20.1158ZM28.6873 21.8825C28.5462 21.8825 28.4109 21.9391 28.3112 22.0398C28.2114 22.1406 28.1554 22.2773 28.1554 22.4198C28.1554 22.5623 28.2114 22.699 28.3112 22.7997C28.4109 22.9005 28.5462 22.9571 28.6873 22.9571H28.7054C29.6757 23.0269 30.3822 23.3536 30.8769 23.8899C31.3844 24.4422 31.6472 25.1289 31.627 25.9778C31.6237 26.1203 31.6767 26.2583 31.7741 26.3614C31.8716 26.4645 32.0056 26.5242 32.1467 26.5275C32.2878 26.5308 32.4244 26.4773 32.5264 26.3789C32.6285 26.2804 32.6877 26.1451 32.6909 26.0026C32.7164 24.8882 32.3611 23.9264 31.6568 23.1591V23.157C30.9365 22.3768 29.9481 21.9641 28.7586 21.8835L28.7405 21.8814L28.6873 21.8825ZM28.6671 23.6825C28.5959 23.6761 28.5242 23.6843 28.4562 23.7066C28.3882 23.7289 28.3254 23.7647 28.2714 23.8121C28.2175 23.8594 28.1736 23.9173 28.1422 23.9822C28.1109 24.047 28.0928 24.1176 28.0891 24.1897C28.0854 24.2618 28.0961 24.3339 28.1206 24.4017C28.1451 24.4696 28.1828 24.5317 28.2316 24.5845C28.2804 24.6372 28.3392 24.6795 28.4045 24.7088C28.4698 24.7381 28.5403 24.7538 28.6118 24.7549C29.0565 24.7786 29.3406 24.914 29.5193 25.0956C29.6991 25.2783 29.8332 25.5716 29.8577 26.0305C29.859 26.1026 29.8747 26.1737 29.9038 26.2395C29.9329 26.3054 29.9748 26.3647 30.0271 26.4138C30.0794 26.4629 30.1409 26.5009 30.208 26.5256C30.2751 26.5502 30.3464 26.5609 30.4177 26.5571C30.489 26.5532 30.5589 26.5349 30.623 26.5033C30.6872 26.4716 30.7444 26.4273 30.7912 26.3728C30.838 26.3184 30.8735 26.2549 30.8955 26.1864C30.9176 26.1178 30.9257 26.0454 30.9195 25.9735C30.8854 25.3288 30.6854 24.7592 30.2758 24.3401C29.864 23.921 29.3034 23.7168 28.6671 23.6825Z" fill="#D4CBB7"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <h3 class="form-faq__title">остались вопросы?</h3>
+                        <p class="faq-form__subtitle">Заполните форму и мы свяжемся с вами в ближайшее время.</p>
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="phone" placeholder="+7 (999) 999-99-99">
+                        <textarea placeholder="Введите вопрос"></textarea>
+                        <label class="form-faq__agree">
+                            <input type="checkbox">
+                            <div></div>
+                            <p>Я согласен(а) с условиями обработки персональных данных.</p>
+                        </label>
+                        <button class="faq-button _btn">ЗАДАТЬ ВОПРОС</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACTS -->
+        <section class="contacts">
+            <div class="contacts__container _container">
+                <div class="contacts__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.2839455333396!2d47.17137367623944!3d56.15219506115881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415a386438642161%3A0xea8658e692feb757!2z0KTQu9C-0YDQsNC90YE!5e0!3m2!1sru!2s!4v1709559120048!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contacts__items">
+                    <h2 class="contacts__title">контакты</h2>
+                    <div class="contacts__item">
+                        <a href=#>
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                                <path d="M22.5 13C18.9064 13 16 15.817 16 19.3C16 24.025 22.5 31 22.5 31C22.5 31 29 24.025 29 19.3C29 15.817 26.0936 13 22.5 13ZM22.5 21.55C21.2186 21.55 20.1786 20.542 20.1786 19.3C20.1786 18.058 21.2186 17.05 22.5 17.05C23.7814 17.05 24.8214 18.058 24.8214 19.3C24.8214 20.542 23.7814 21.55 22.5 21.55Z" fill="#897B75"/>
+                            </svg>  
+                        </a>
+                        <div class="contacts__item__text">
+                            <p>Адрес:</p>
+                            <p>г. Чебоксары, ул. Юрьева, д. 8/7, пом. 1</p>
+                        </div>                          
+                    </div>
+                    <div class="contacts__item">
+                        <a href="tel:">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                                <path d="M28.4323 24.9109L26.17 24.6526C25.904 24.6214 25.6343 24.6508 25.3813 24.7388C25.1283 24.8267 24.8986 24.9708 24.7093 25.1603L23.0704 26.7992C20.5419 25.5132 18.4868 23.458 17.2008 20.9295L18.8486 19.2818C19.2316 18.8988 19.4186 18.3644 19.3563 17.821L19.098 15.5765C19.0475 15.142 18.839 14.7413 18.5121 14.4506C18.1853 14.1598 17.7629 13.9995 17.3255 14H15.7846C14.7782 14 13.9409 14.8372 14.0033 15.8437C14.4753 23.4502 20.5587 29.5247 28.1562 29.9967C29.1627 30.0591 29.9999 29.2218 29.9999 28.2154V26.6745C30.0088 25.7749 29.3319 25.0178 28.4323 24.9109Z" fill="#897B75"/>
+                            </svg>                            
+                        </a>
+                        <div class="contacts__item__text">
+                            <p>Номера телефонов:</p>
+                            <p>8 (8352) 40-91-92, 37-40-91</p>
+                        </div>                          
+                    </div>
+                    <div class="contacts__item">
+                        <a href="#">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                                <g clip-path="url(#clip0_9_78)">
+                                <path d="M22.5 14C27.1946 14 31 17.8055 31 22.5C31 27.1946 27.1946 31 22.5 31C17.8055 31 14 27.1946 14 22.5C14 17.8055 17.8055 14 22.5 14ZM22.5 17.4C22.2746 17.4 22.0584 17.4896 21.899 17.649C21.7396 17.8084 21.65 18.0246 21.65 18.25V22.5C21.65 22.7254 21.7396 22.9416 21.8991 23.101L24.4491 25.651C24.6094 25.8058 24.8241 25.8915 25.0469 25.8895C25.2698 25.8876 25.483 25.7982 25.6406 25.6406C25.7982 25.483 25.8876 25.2698 25.8895 25.0469C25.8915 24.8241 25.8058 24.6094 25.651 24.4491L23.35 22.1481V18.25C23.35 18.0246 23.2604 17.8084 23.101 17.649C22.9416 17.4896 22.7254 17.4 22.5 17.4Z" fill="#897B75"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_9_78">
+                                <rect width="20" height="20" fill="white" transform="translate(12 12)"/>
+                                </clipPath>
+                                </defs>
+                            </svg>                                                        
+                        </a>
+                        <div class="contacts__item__text">
+                            <p>График работы:</p>
+                            <p>Пн-Вс 09:00 - 20:00</p>
+                        </div>                          
+                    </div>
+                    <div class="contacts__item">
+                        <a href="#">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#F3F2F0"/>
+                                <path d="M29.3 15H15.7C14.765 15 14 15.7312 14 16.625V26.375C14 27.2688 14.765 28 15.7 28H29.3C30.235 28 31 27.2688 31 26.375V16.625C31 15.7312 30.235 15 29.3 15ZM28.96 18.4531L23.401 21.7762C22.8485 22.1094 22.1515 22.1094 21.599 21.7762L16.04 18.4531C15.9548 18.4074 15.8801 18.3456 15.8206 18.2715C15.7611 18.1974 15.7179 18.1125 15.6937 18.022C15.6695 17.9315 15.6647 17.8372 15.6797 17.7449C15.6947 17.6526 15.7292 17.5641 15.781 17.4849C15.8328 17.4056 15.9009 17.3373 15.9811 17.2839C16.0614 17.2306 16.1521 17.1934 16.2478 17.1745C16.3436 17.1556 16.4423 17.1555 16.5381 17.1742C16.6338 17.1929 16.7246 17.2299 16.805 17.2831L22.5 20.6875L28.195 17.2831C28.2754 17.2299 28.3662 17.1929 28.4619 17.1742C28.5577 17.1555 28.6564 17.1556 28.7522 17.1745C28.8479 17.1934 28.9386 17.2306 29.0189 17.2839C29.0991 17.3373 29.1672 17.4056 29.219 17.4849C29.2708 17.5641 29.3053 17.6526 29.3203 17.7449C29.3353 17.8372 29.3305 17.9315 29.3063 18.022C29.2821 18.1125 29.2389 18.1974 29.1794 18.2715C29.1199 18.3456 29.0452 18.4074 28.96 18.4531Z" fill="#897B75"/>
+                            </svg>                                                                                    
+                        </a>
+                        <div class="contacts__item__text">
+                            <p>Электронная почта:</p>
+                            <p>florans21@mail.ru</p>
+                        </div>                          
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer__container _container">
+                <div class="logo">
+                    <img src="./assets/images/footer/logo.svg" alt="Florans">
+                </div>
+                <div class="footer__top">
+                    <div class="footer__block">
+                        <p class="footer__block__title">УСЛУГИ</p>
+                        <ul class="footer__block__list">
+                            <li>Инъекционная косметология</li>
+                            <li>Аппаратная косметология</li>
+                            <li>Нитевой лифтинг</li>
+                            <li>Косметические услуги</li>
+                            <li>Трихология</li>
+                            <li>Генетические исследования</li>
+                            <li>Пересадка волос</li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <p class="footer__block__title">КЛИЕНТАМ</p>
+                        <ul class="footer__block__list">
+                            <li>О центре</li>
+                            <li>Новинки</li>
+                            <li>Акции</li>
+                            <li>Прайс</li>
+                            <li>Специалисты</li>
+                            <li>Документы</li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <p class="footer__block__title">КОСМЕТИКА</p>
+                        <ul class="footer__block__list">
+                            <li>Название бренда</li>
+                            <li>Название бренда</li>
+                            <li>Название бренда</li>
+                            <li>Название бренда</li>
+                            <li>Название бренда</li>
+                            <li>Название бренда</li>
+                        </ul>
+                    </div>
+                    <div class="footer__contacts">
+                        <p class="footer__contacts__small-text">По всем вопросам обращайтесь по телефонам:</p>
+                        <p class="footer__contacts__phone">8 (8352) 40-91-92</p>
+                        <p class="footer__contacts__phone">8 (8352) 37-40-91</p>
+                        <div class="footer__contacts__item">
+                            <svg width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 0C2.90643 0 0 2.817 0 6.3C0 11.025 6.5 18 6.5 18C6.5 18 13 11.025 13 6.3C13 2.817 10.0936 0 6.5 0ZM6.5 8.55C5.21857 8.55 4.17857 7.542 4.17857 6.3C4.17857 5.058 5.21857 4.05 6.5 4.05C7.78143 4.05 8.82143 5.058 8.82143 6.3C8.82143 7.542 7.78143 8.55 6.5 8.55Z" fill="#897B75"/>
+                            </svg>   
+                            <p>г. Чебоксары, ул. Юрьева, д. 8/7, пом. 1</p>                             
+                        </div>
+                        <div class="footer__contacts__item">
+                            <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.3 3H1.7C0.765 3 0 3.73125 0 4.625V14.375C0 15.2688 0.765 16 1.7 16H15.3C16.235 16 17 15.2688 17 14.375V4.625C17 3.73125 16.235 3 15.3 3ZM14.96 6.45312L9.401 9.77625C8.8485 10.1094 8.1515 10.1094 7.599 9.77625L2.04 6.45312C1.95477 6.40739 1.88013 6.3456 1.82061 6.27149C1.76108 6.19739 1.7179 6.11251 1.69369 6.02199C1.66948 5.93147 1.66473 5.8372 1.67973 5.74487C1.69474 5.65255 1.72919 5.5641 1.78099 5.48487C1.83279 5.40564 1.90088 5.33728 1.98112 5.28393C2.06136 5.23058 2.15209 5.19335 2.24782 5.17449C2.34355 5.15563 2.44229 5.15554 2.53806 5.17421C2.63383 5.19288 2.72464 5.22993 2.805 5.28312L8.5 8.6875L14.195 5.28312C14.2754 5.22993 14.3662 5.19288 14.4619 5.17421C14.5577 5.15554 14.6564 5.15563 14.7522 5.17449C14.8479 5.19335 14.9386 5.23058 15.0189 5.28393C15.0991 5.33728 15.1672 5.40564 15.219 5.48487C15.2708 5.5641 15.3053 5.65255 15.3203 5.74487C15.3353 5.8372 15.3305 5.93147 15.3063 6.02199C15.2821 6.11251 15.2389 6.19739 15.1794 6.27149C15.1199 6.3456 15.0452 6.40739 14.96 6.45312Z" fill="#897B75"/>
+                            </svg>
+                            <p>florans21@mail.ru</p>                                
+                        </div>
+                        <p class="footer__contacts__small-text">
+                            Следите за нами в социальных сетях и пишите напрямую в мессенджерах:
+                        </p>
+                        <div class="footer__contacts__social-media">
+                            <a href="#">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="44" height="44" rx="22" fill="#F3F2F0" fill-opacity="0.2"/>
+                                    <path d="M31.5414 16.8126C31.6812 16.3438 31.5414 16 30.8807 16H28.6919C28.135 16 27.8805 16.2974 27.7407 16.6241C27.7407 16.6241 26.6279 19.3655 25.0509 21.143C24.5419 21.6602 24.3093 21.8236 24.0319 21.8236C23.8931 21.8236 23.6915 21.6602 23.6915 21.1914V16.8126C23.6915 16.25 23.5308 16 23.0667 16H19.6273C19.28 16 19.0704 16.2601 19.0704 16.5082C19.0704 17.0405 19.8589 17.1635 19.9397 18.6638V21.9183C19.9397 22.6312 19.813 22.7612 19.5335 22.7612C18.7919 22.7612 16.9874 20.0097 15.9165 16.86C15.7079 16.248 15.4973 16.001 14.9384 16.001H12.7506C12.1248 16.001 12 16.2984 12 16.6251C12 17.2119 12.7416 20.1156 15.4544 23.956C17.2629 26.5784 19.809 28 22.1285 28C23.5189 28 23.6905 27.6844 23.6905 27.14V25.1578C23.6905 24.5266 23.8233 24.3996 24.2634 24.3996C24.5868 24.3996 25.1437 24.5649 26.4422 25.8283C27.9254 27.3265 28.1709 27.999 29.0043 27.999H31.1921C31.8169 27.999 32.1293 27.6834 31.9497 27.0603C31.753 26.4403 31.0444 25.5379 30.1042 24.4702C29.5932 23.8612 28.8296 23.2058 28.5971 22.8782C28.2727 22.4557 28.3665 22.2692 28.5971 21.8941C28.5981 21.8951 31.264 18.1022 31.5414 16.8126Z" fill="#D4CBB7"/>
+                                </svg>  
+                            </a>
+                            <a href="#">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="44" height="44" rx="22" fill="#F3F2F0" fill-opacity="0.2"/>
+                                    <path d="M22.5 14C27.1946 14 31 17.8054 31 22.5C31 27.1945 27.1946 31 22.5 31C20.9979 31.0024 19.5222 30.6049 18.2245 29.8482L14.0034 31L15.1526 26.7772C14.3953 25.4791 13.9975 24.0028 14 22.5C14 17.8054 17.8055 14 22.5 14ZM19.6032 18.505L19.4332 18.5118C19.3232 18.5185 19.2156 18.5474 19.117 18.5968C19.0248 18.649 18.9406 18.7143 18.8671 18.7906C18.7651 18.8866 18.7073 18.9699 18.6453 19.0507C18.3309 19.4595 18.1616 19.9613 18.1642 20.477C18.1659 20.8935 18.2747 21.2989 18.4447 21.678C18.7923 22.4447 19.3644 23.2565 20.1192 24.0087C20.3011 24.1898 20.4796 24.3717 20.6717 24.5408C21.6095 25.3666 22.7272 25.9621 23.9357 26.2799L24.4185 26.3539C24.5757 26.3624 24.733 26.3505 24.8911 26.3428C25.1386 26.3301 25.3803 26.263 25.5991 26.1465C25.7104 26.0892 25.819 26.0268 25.9247 25.9595C25.9247 25.9595 25.9612 25.9357 26.0309 25.883C26.1457 25.798 26.2162 25.7376 26.3114 25.6382C26.382 25.5651 26.4432 25.4792 26.4899 25.3815C26.5562 25.2429 26.6225 24.9786 26.6497 24.7584C26.6701 24.5901 26.6642 24.4983 26.6616 24.4414C26.6582 24.3504 26.5826 24.2561 26.5001 24.2161L26.0054 23.9943C26.0054 23.9943 25.2659 23.6721 24.8137 23.4664C24.7664 23.4458 24.7157 23.434 24.6641 23.4316C24.6059 23.4256 24.5472 23.4322 24.4918 23.4508C24.4363 23.4694 24.3856 23.4997 24.3428 23.5395C24.3386 23.5378 24.2816 23.5863 23.6671 24.3309C23.6318 24.3783 23.5832 24.4141 23.5275 24.4338C23.4718 24.4535 23.4115 24.4561 23.3543 24.4414C23.2989 24.4265 23.2446 24.4078 23.1919 24.3853C23.0865 24.3411 23.05 24.3241 22.9777 24.2935C22.4899 24.0806 22.0382 23.793 21.639 23.4409C21.5319 23.3474 21.4324 23.2454 21.3304 23.1468C20.996 22.8266 20.7046 22.4643 20.4634 22.069L20.4133 21.9883C20.3772 21.934 20.3481 21.8755 20.3266 21.814C20.2943 21.6891 20.3784 21.5888 20.3784 21.5888C20.3784 21.5888 20.585 21.3627 20.681 21.2403C20.7745 21.1213 20.8536 21.0057 20.9046 20.9232C21.0049 20.7617 21.0363 20.596 20.9836 20.4676C20.7456 19.8862 20.4991 19.3074 20.2458 18.7328C20.1957 18.6189 20.0469 18.5373 19.9118 18.5211C19.8659 18.516 19.82 18.5109 19.7741 18.5075C19.6599 18.5019 19.5455 18.503 19.4315 18.5109L19.6032 18.505Z" fill="#D4CBB7"/>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="44" height="44" rx="22" fill="#F3F2F0" fill-opacity="0.2"/>
+                                    <g clip-path="url(#clip0_1_20)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.1355 15.1095C28.3568 15.0125 28.5991 14.9791 28.837 15.0127C29.0749 15.0462 29.2999 15.1455 29.4884 15.3002C29.677 15.4549 29.8222 15.6594 29.9091 15.8923C29.9959 16.1252 30.0212 16.3781 29.9822 16.6247L27.951 29.4443C27.754 30.6808 26.45 31.39 25.3601 30.774C24.4484 30.2587 23.0943 29.4648 21.8763 28.6363C21.2673 28.2217 19.4018 26.8938 19.6311 25.9488C19.8281 25.1409 22.9627 22.1049 24.7538 20.2999C25.4568 19.5908 25.1362 19.1817 24.306 19.834C22.2444 21.4536 18.9344 23.9165 17.84 24.6098C16.8745 25.2211 16.3712 25.3254 15.7694 25.2211C14.6714 25.031 13.6531 24.7365 12.822 24.3777C11.699 23.8932 11.7536 22.2866 12.8211 21.8188L28.1355 15.1095Z" fill="#D4CBB7"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_20">
+                                    <rect width="20" height="20" fill="white" transform="translate(11 12)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>   
+                            </a>
+                            <a href="#">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="44" height="44" rx="22" fill="#F3F2F0" fill-opacity="0.2"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M25.8201 13.4895C22.9749 12.8368 20.0243 12.8368 17.1791 13.4895L16.8725 13.5591C16.0722 13.7428 15.3371 14.1505 14.749 14.737C14.1609 15.3235 13.7427 16.0659 13.5409 16.8816C12.8197 19.7982 12.8197 22.8533 13.5409 25.7698C13.7333 26.5478 14.1228 27.2597 14.6697 27.8335C15.2167 28.4072 15.9018 28.8223 16.6555 29.0367L17.076 31.613C17.0894 31.6948 17.124 31.7714 17.176 31.8349C17.2281 31.8984 17.2958 31.9463 17.3721 31.9738C17.4484 32.0013 17.5304 32.0073 17.6097 31.9912C17.689 31.975 17.7627 31.9374 17.823 31.8822L20.2927 29.6149C22.1467 29.731 24.0074 29.5788 25.8201 29.1629L26.1275 29.0933C26.9279 28.9097 27.6629 28.5019 28.2511 27.9154C28.8392 27.3289 29.2574 26.5865 29.4591 25.7708C30.1803 22.8543 30.1803 19.7991 29.4591 16.8826C29.2573 16.0667 28.839 15.3243 28.2507 14.7377C27.6624 14.1512 26.9271 13.7435 26.1266 13.5601L25.8201 13.4895ZM17.9423 16.8065C17.7743 16.7814 17.6029 16.8161 17.4567 16.9048H17.4441C17.1049 17.109 16.7993 17.3661 16.5388 17.6687C16.3218 17.9257 16.2042 18.1856 16.1735 18.4362C16.1554 18.5847 16.168 18.735 16.2105 18.877L16.2268 18.8863C16.471 19.6223 16.7893 20.3304 17.1782 20.9967C17.6796 21.9327 18.2966 22.7983 19.014 23.5722L19.0357 23.6037L19.0701 23.6297L19.0909 23.6548L19.1162 23.677C19.8729 24.4154 20.7183 25.0517 21.6321 25.5703C22.6766 26.1541 23.3105 26.4297 23.6912 26.5448V26.5504C23.8025 26.5856 23.9038 26.6014 24.006 26.6014C24.3302 26.5768 24.6371 26.4415 24.8777 26.2172C25.1717 25.9499 25.4204 25.6353 25.6139 25.2854V25.2789C25.7957 24.9262 25.7342 24.594 25.4719 24.3684C24.9451 23.8961 24.3755 23.4765 23.7708 23.1155C23.3657 22.89 22.9542 23.0264 22.7878 23.2548L22.4324 23.7151C22.2497 23.9434 21.9187 23.9118 21.9187 23.9118L21.9097 23.9174C19.4399 23.2705 18.7807 20.7044 18.7807 20.7044C18.7807 20.7044 18.7499 20.3554 18.9787 20.1772L19.4237 19.8097C19.6371 19.6315 19.7854 19.2102 19.5566 18.7944C19.2072 18.1733 18.7992 17.5889 18.3384 17.0496C18.238 16.9227 18.097 16.8363 17.9405 16.8055L17.9423 16.8065ZM22.115 15.6909C21.9951 15.6909 21.88 15.7398 21.7952 15.8268C21.7104 15.9139 21.6628 16.0319 21.6628 16.155C21.6628 16.278 21.7104 16.3961 21.7952 16.4831C21.88 16.5701 21.9951 16.619 22.115 16.619C23.259 16.619 24.2085 17.0023 24.96 17.7373C25.3462 18.1392 25.6473 18.6153 25.8445 19.1369C26.0425 19.6594 26.133 20.2172 26.1095 20.7759C26.107 20.8368 26.1162 20.8976 26.1366 20.9549C26.157 21.0122 26.1882 21.0648 26.2285 21.1097C26.3097 21.2004 26.4227 21.2542 26.5426 21.2594C26.6626 21.2646 26.7796 21.2206 26.8679 21.1373C26.9563 21.0539 27.0088 20.9379 27.0138 20.8148C27.0419 20.1276 26.9307 19.4418 26.6873 18.8009C26.4429 18.1569 26.0723 17.5713 25.5985 17.0803L25.5895 17.071C24.6571 16.1568 23.4769 15.6909 22.115 15.6909ZM22.0842 17.2167C21.9643 17.2167 21.8493 17.2656 21.7645 17.3526C21.6797 17.4396 21.6321 17.5576 21.6321 17.6807C21.6321 17.8038 21.6797 17.9218 21.7645 18.0088C21.8493 18.0959 21.9643 18.1448 22.0842 18.1448H22.0996C22.9244 18.2051 23.5249 18.4872 23.9454 18.9503C24.3767 19.4274 24.6001 20.0204 24.5829 20.7536C24.5802 20.8767 24.6252 20.9958 24.708 21.0848C24.7909 21.1739 24.9048 21.2255 25.0247 21.2283C25.1446 21.2311 25.2607 21.185 25.3475 21.0999C25.4342 21.0149 25.4845 20.898 25.4873 20.7749C25.509 19.8125 25.2069 18.9819 24.6083 18.3192V18.3174C23.996 17.6436 23.1559 17.2872 22.1448 17.2176L22.1295 17.2158L22.0842 17.2167ZM22.0671 18.7712C22.0065 18.7657 21.9456 18.7728 21.8878 18.7921C21.83 18.8113 21.7766 18.8423 21.7307 18.8832C21.6849 18.9241 21.6475 18.974 21.6209 19.03C21.5943 19.0861 21.5789 19.1471 21.5757 19.2093C21.5726 19.2716 21.5817 19.3338 21.6025 19.3924C21.6233 19.451 21.6554 19.5046 21.6969 19.5502C21.7383 19.5958 21.7883 19.6323 21.8438 19.6576C21.8994 19.6829 21.9593 19.6964 22.02 19.6974C22.398 19.7179 22.6395 19.8348 22.7914 19.9916C22.9443 20.1494 23.0582 20.4028 23.079 20.7991C23.0801 20.8613 23.0935 20.9227 23.1182 20.9796C23.143 21.0365 23.1786 21.0877 23.223 21.1301C23.2675 21.1725 23.3197 21.2054 23.3768 21.2266C23.4338 21.2479 23.4945 21.2571 23.5551 21.2538C23.6157 21.2505 23.675 21.2347 23.7296 21.2074C23.7841 21.18 23.8327 21.1417 23.8725 21.0947C23.9123 21.0477 23.9425 20.9929 23.9612 20.9337C23.9799 20.8744 23.9868 20.8119 23.9815 20.7499C23.9526 20.193 23.7826 19.7011 23.4344 19.3392C23.0844 18.9772 22.6078 18.8009 22.0671 18.7712Z" fill="#D4CBB7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p>© Центр косметологии «Флоранс». Все права защищены.</p>
+                    <p>Политика конфиденциальности</p>
+                </div>
+            </div>
+        </footer>
+        <!-- SUBSTRATE   -->
+        <div class="substrate"></div>
+    </div>
+    <!-- Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
