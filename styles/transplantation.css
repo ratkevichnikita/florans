@@ -1,0 +1,43 @@
+.transplantation {
+  padding: 4.2% 0 6.3%; }
+  .transplantation .transplantation__container {
+    background-image: url("./assets/images/transplantation/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 3.1% 3.6%;
+    border-radius: 16px; }
+    .transplantation .transplantation__container .transplantation__title {
+      max-width: 49%; }
+    @media (max-width: 768px) {
+      .transplantation .transplantation__container .transplantation__title {
+        max-width: 65%; } }
+    .transplantation .transplantation__container .transplantation__text {
+      max-width: 38%;
+      margin: 0 0 40px; }
+      .transplantation .transplantation__container .transplantation__text p {
+        line-height: 155%; }
+        .transplantation .transplantation__container .transplantation__text p:not(:last-child) {
+          margin: 0 0 20px; }
+    @media (max-width: 768px) {
+      .transplantation .transplantation__container .transplantation__title {
+        max-width: 65%; }
+      .transplantation .transplantation__container .transplantation__text {
+        max-width: 95%; } }
+    .transplantation .transplantation__container .transplantation__buttons {
+      display: flex;
+      column-gap: 15px; }
+      .transplantation .transplantation__container .transplantation__buttons button:first-child {
+        width: 200px;
+        padding: 20.5px; }
+      .transplantation .transplantation__container .transplantation__buttons button:last-child {
+        width: 180px;
+        padding: 20.5px;
+        background-color: white;
+        border: 1px solid rgba(68, 136, 31, 0.4);
+        color: #44881F; }
+        .transplantation .transplantation__container .transplantation__buttons button:last-child:hover {
+          background-color: #62A92D;
+          color: white; }
+
+/*# sourceMappingURL=transplantation.css.map */

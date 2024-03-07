@@ -1,0 +1,147 @@
+.faq {
+  padding: 8.2% 0;
+  background-image: url("./assets/images/faq/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .faq .faq__container .faq__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .faq .faq__container .faq__main .faq__questions {
+      max-width: 64%; }
+      .faq .faq__container .faq__main .faq__questions .faq__question {
+        background-color: white;
+        border: 1px solid #EBE9E6;
+        border-radius: 16px;
+        padding: 25px 20px 25px 27px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        cursor: pointer; }
+        .faq .faq__container .faq__main .faq__questions .faq__question:hover ._arrow {
+          background-color: white !important;
+          border: 1px solid #62A92D !important; }
+          .faq .faq__container .faq__main .faq__questions .faq__question:hover ._arrow svg path {
+            stroke: #62A92D; }
+        .faq .faq__container .faq__main .faq__questions .faq__question:not(:last-child) {
+          margin: 0 0 15px; }
+        .faq .faq__container .faq__main .faq__questions .faq__question .faq__question__text .faq__question__title {
+          font-weight: 600;
+          font-size: 1.8rem;
+          line-height: 145%;
+          color: #302A26;
+          padding-right: 5px; }
+        .faq .faq__container .faq__main .faq__questions .faq__question .faq__question__text p {
+          margin: 20px 0 0;
+          line-height: 155%;
+          display: none; }
+        @media (max-width: 549px) {
+          .faq .faq__container .faq__main .faq__questions .faq__question .faq__question__text .faq__question__title {
+            font-size: 1.35rem; }
+          .faq .faq__container .faq__main .faq__questions .faq__question .faq__question__text p {
+            font-size: 1.2rem; } }
+        .faq .faq__container .faq__main .faq__questions .faq__question .faq__question__arrow {
+          max-width: 40px;
+          min-width: 40px; }
+        .faq .faq__container .faq__main .faq__questions .faq__question._active .faq__question__text p {
+          display: block; }
+        .faq .faq__container .faq__main .faq__questions .faq__question._active .faq__question__arrow {
+          transform: rotate(90deg);
+          background-color: #42861E; }
+    @media (max-width: 974px) {
+      .faq .faq__container .faq__main .faq__questions {
+        max-width: 85%; } }
+    @media (max-width: 599px) {
+      .faq .faq__container .faq__main .faq__questions {
+        max-width: 95%; } }
+    .faq .faq__container .faq__main .form-faq {
+      padding: 30px 40px 40px;
+      background-image: url("./assets/images/faq/form-background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      border-radius: 16px;
+      max-width: 32%; }
+      .faq .faq__container .faq__main .form-faq .form-faq__social-media {
+        display: flex;
+        column-gap: 10px;
+        margin: 0 0 20px; }
+      .faq .faq__container .faq__main .form-faq .form-faq__title {
+        font-weight: 700;
+        font-size: 2.6rem;
+        line-height: 125%;
+        letter-spacing: -0.2px;
+        margin: 0 0 8px;
+        text-transform: uppercase; }
+      .faq .faq__container .faq__main .form-faq .faq-form__subtitle {
+        font-size: 1.6rem;
+        line-height: 155%;
+        margin: 0 0 15px; }
+      .faq .faq__container .faq__main .form-faq input,
+      .faq .faq__container .faq__main .form-faq textarea {
+        width: 100%;
+        padding: 16px 20px;
+        border-radius: 10px;
+        border: 1px solid #DDD7CD;
+        margin: 0 0 10px;
+        background-color: #FAF9F8; }
+        .faq .faq__container .faq__main .form-faq input::placeholder,
+        .faq .faq__container .faq__main .form-faq textarea::placeholder {
+          font-size: 1.4rem;
+          line-height: 155%;
+          letter-spacing: 0.1px;
+          color: rgba(48, 42, 38, 0.6);
+          font-family: Manrope; }
+      .faq .faq__container .faq__main .form-faq input {
+        height: 54px; }
+      .faq .faq__container .faq__main .form-faq textarea {
+        aspect-ratio: 300/76;
+        resize: none; }
+      @media (max-width: 374px) {
+        .faq .faq__container .faq__main .form-faq textarea {
+          aspect-ratio: 2.9; } }
+      .faq .faq__container .faq__main .form-faq .form-faq__agree {
+        display: flex;
+        column-gap: 10px;
+        align-items: flex-start;
+        cursor: pointer;
+        margin: 0 0 15px; }
+        .faq .faq__container .faq__main .form-faq .form-faq__agree input {
+          display: none; }
+          .faq .faq__container .faq__main .form-faq .form-faq__agree input:checked + div {
+            background-image: url("./assets/images/faq/checkbox.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; }
+        .faq .faq__container .faq__main .form-faq .form-faq__agree div {
+          margin-top: 5px;
+          width: 18px;
+          aspect-ratio: 1;
+          border: 1px solid #DDD7CD;
+          background-color: #FAF9F8;
+          border-radius: 2px; }
+        .faq .faq__container .faq__main .form-faq .form-faq__agree p {
+          font-size: 1.2rem;
+          line-height: 155%;
+          color: white; }
+      .faq .faq__container .faq__main .form-faq .faq-button {
+        width: 100%;
+        padding: 18px; }
+    @media (max-width: 974px) {
+      .faq .faq__container .faq__main .form-faq {
+        max-width: 43%; } }
+    @media (max-width: 749px) {
+      .faq .faq__container .faq__main .form-faq {
+        max-width: 57%; } }
+    @media (max-width: 574px) {
+      .faq .faq__container .faq__main .form-faq {
+        max-width: 76%; } }
+    @media (max-width: 449px) {
+      .faq .faq__container .faq__main .form-faq {
+        max-width: 95%; } }
+  @media (max-width: 974px) {
+    .faq .faq__container .faq__main {
+      flex-direction: column;
+      row-gap: 30px;
+      align-items: center; } }
+
+/*# sourceMappingURL=faq.css.map */
